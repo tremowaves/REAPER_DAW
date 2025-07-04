@@ -1,3 +1,66 @@
+v7.41 - June 28 2025
+  + Actions: add actions to move cursor by grid division, which preserve non-snapped grid if snapping is not enabled
+  + Actions: fix actions to show/hide all envelopes in certain situations [t=301489]
+  + Actions window: prevent adding action from incorrect section to custom menu/toolbar in certain instances [t=301286]
+  + Actions window: prevent closing window when double-clicking item that is not runnable
+  + Auto trim/split silence: respect dialog fade-in/fade-out setting regardless of project default fade settings [t=299675]
+  + Click source: fix initial focus of modeless source properties window
+  + Crossfade editor: add actions to load default crossfade, crossfade presets
+  + Crossfade editor: add actions to nudge left or right item volume +/- 1 dB or 0.1 dB
+  + Crossfade editor: add actions to set preview time to 50/100/500 ms
+  + Crossfade editor: add actions to zoom in/out
+  + Crossfade editor: add action to toggle ripple editing on/off
+  + Crossfade editor: add action to toggle setting to lock left-hand item start position
+  + Crossfade editor: add option for edits to affect all selected items regardless of timeline position, enabled by default [t=301171]
+  + Crossfade editor: add option to link pre-roll/post-roll when mouse editing
+  + Crossfade editor: after running action to set pre-roll or post-roll to mouse, restart playback only if the pre-roll changed
+  + Crossfade editor: clamp edits to adjacent fade edges [p=2873557]
+  + Crossfade editor: display the number of affected crossfades in the title bar
+  + Crossfade editor: fix wonky display update when editing while playing back
+  + Crossfade editor: improve auto-crossfade behavior when edits affect items that are not processed by the crossfade editor [p=2874197]
+  + Crossfade editor: mute left/right also affects grouped items
+  + Crossfade editor: update checkboxes when reopening editor and solo/mute are enabled
+  + Crossfade editor: update numerical pre-roll/post-roll display after running actions that change pre-roll/post-roll
+  + JSFX/Video Processors: get_host_placement() returns track index/fx address and sets 8 bit in flag when called from FX in container [t=301134]
+  + macOS: fix ReaImGui issue with transparency [p=2875068]
+  + Media explorer: fix vertical-mode divider sizing issues [t=296197]
+  + Menu/toolbar customization: reduce flicker on Windows
+  + MIDI: avoid writing real-time MIDI messages when exporting to file [t=301162]
+  + MIDI: fix midi peaks inaccuracies when looped items intersect tempo changes (7.39 regression)
+  + MIDI: fix swing grid navigation on 1/2 grid size [p=2873161]
+  + MIDI: handle importing file MIDI with incorrectly-included SPP messages [t=301162]
+  + MIDI editor: better behavior when using linked project grid and swing mode changes [p=2871994]
+  + MIDI editor: fix actions to navigate left/right by grid when snapping is disabled (7.40 regression)
+  + MIDI editor: preserve swing setting after glue
+  + MIDI editor: improve undo log message after note splitting [t=299882]
+  + MIDI editor: use project setting for relative snap
+  + Mouse modifiers: fix incorrect capture handling when clicking to insert take marker [t=297904]
+  + Mouse modifiers: preserve fade start/end time when engaging mouse modifier to adjust edge without changing fade time [p=2873252]
+  + Nudge: fix nudging automation items by musical amounts [t=297915]
+  + Pin mapper: fix incorrect initial size when using DPI scaling on Windows/Linux [t=301273]
+  + Razor edits: fix handling of crossfades when stretching regions [t=301300]
+  + Razor edits: fix stretch edits affecting other items when preference set to add warp markers [t=301240]
+  + ReaEQ/ReaXcomp: support mousewheel over text fields, like other ReaPlugs
+  + ReaScript: fix instances where GetSetProjectGrid() would not set measure-grid (mode=3)
+  + Render: add setting to enable/disable all dither and noise shaping
+  + Render: allow editing render metadata even if embedding metadata is not enabled
+  + Render: fix skipped samples at start of render with certain combinations of render settings and resample modes (7.37 regression) [p=2874439]
+  + Render: improve various behaviors and interaction with completed render dialog when project play rate is not 1.0 [t=301133]
+  + Render: prevent possible crash when adding rendered files to project after the source track or media item has been removed
+  + Render: restore option to normalize to master mix
+  + Render: see render postprocessing help for explanation of differences between 'normalize as if files play together' and 'normalize to master mix'
+  + Render: support 'entire project' as a region in region render matrix, to enable rendering specific tracks as mono/stereo/multichannel
+  + Render: support delaying render start for normal renders, not just queued renders [t=300630]
+  + Render: support limiting to master mix, as distinct from limiting as if files play together
+  + RPP: support LOAD_PRESET_FROM_FILE in <FX following <VST, to allow programmatic loading VST/VST3 fxp/fxb/vstpreset file [t=288851]
+  + RS5k: fix undesired mode-switch when editing note start/end values [t=299565]
+  + Ruler: fix quirks around double-clicking ruler, edit cursor moving [t=293896]
+  + Tempo envelope: preserve beat basis when copy/pasting envelope points [t=301271]
+  + Transport: fix inconsistent behavior when closing edit field via escape key [p=2875136]
+  + Undo: improve loop points/time selection undo messages
+  + Windows: allow OSARA to re-enable old ctrl+space playback binding via .ini file
+  + Windows: fix fade menu display issue on Windows XP/Vista/7 with classic system theme set [t=301209]
+
 v7.40 - June 10 2025
   + Actions: do not display extra message box when using new 'Save copy of project as (prompt with current name)' action [p=2866104]
   + Audio Units: ensure MIDI events sent to plug-in are sorted

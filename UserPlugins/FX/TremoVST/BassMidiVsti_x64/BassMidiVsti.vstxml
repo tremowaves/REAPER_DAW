@@ -1,0 +1,56 @@
+<VSTPluginProperties>
+ <VSTParametersStructure>
+	<ValueType name="OnOff">
+			<Entry name="Off" value="[0, 0.5["/>
+			<Entry name="On"  value="[0.5, 1]"/>
+	</ValueType>
+	<ValueType name="MidiSystem">
+			<Entry name="GS" value="[0, 0.17["/>
+			<Entry name="GM" value="[0.17, 0.5["/>
+			<Entry name="GM2" value="[0.5, 0.83["/>
+			<Entry name="XG" value="[0.83, 1]"/>
+	</ValueType>
+	<ValueType name="ReverbType">
+			<Entry name="Hall 1" value="[0, 0.046["/>
+			<Entry name="Hall 2" value="[0.046, 0.136["/>
+			<Entry name="Room 1" value="[0.136, 0.227["/>
+			<Entry name="Room 2" value="[0.227, 0.318["/>
+			<Entry name="Room 3" value="[0.318, 0.409["/>
+			<Entry name="Stage 1" value="[0.409, 0.5["/>
+			<Entry name="Stage 2" value="[0.5, 0.591["/>
+			<Entry name="Plate" value="[0.591, 0.682["/>
+			<Entry name="White Room" value="[0.682, 0.773["/>
+			<Entry name="Tunnel" value="[0.773, 0.864["/>
+			<Entry name="Basement" value="[0.864, 0.954["/>
+			<Entry name="No Effect" value="[0.954, 1]"/>
+	</ValueType>
+	<ValueType name="ChorusType">
+			<Entry name="Chorus 1" value="[0, 0.046["/>
+			<Entry name="Chorus 2" value="[0.046, 0.136["/>
+			<Entry name="Chorus 3" value="[0.136, 0.227["/>
+			<Entry name="Chorus 4" value="[0.227, 0.318["/>
+			<Entry name="Celeste 1" value="[0.318, 0.409["/>
+			<Entry name="Celeste 2" value="[0.409, 0.5["/>
+			<Entry name="Celeste 3" value="[0.5, 0.591["/>
+			<Entry name="Celeste 4" value="[0.591, 0.682["/>
+			<Entry name="Flanger 1" value="[0.682, 0.773["/>
+			<Entry name="Flanger 2" value="[0.773, 0.864["/>
+			<Entry name="Flanger 3" value="[0.864, 0.954["/>
+			<Entry name="No Effect" value="[0.954, 1]"/>
+	</ValueType>
+	<Param id="0" name="Transpose" shortName="Trans" numberOfStates="24" label="Semitones"/>
+	<Param id="1" name="Midi System" shortName="MidiSys" type="MidiSystem" numberOfStates="4" label="Mode"/>
+	<Param id="2" name="Note Off 1" shortName="NoteOff1" type="OnOff" label=""/>
+	<Param id="3" name="Use Synch Int." shortName="SynchInt" type="OnOff" label=""/>
+	<Param id="4" name="Reverb Type" shortName="RevType" type="ReverbType" numberOfStates="12" label=""/>
+	<Param id="5" name="Reverb Level" shortName="RevLev" numberOfStates="128" label=""/>
+	<Param id="6" name="Chorus Type" shortName="ChorType" type="ChorusType" numberOfStates="12" label=""/>
+	<Param id="7" name="Chorus Level" shortName="ChorLev" numberOfStates="128" label=""/>
+	<Param id="8" name="Max. Polyphony" shortName="MaxPoly" numberOfStates="1000" label="Voices"/>
+	<Param id="9" name="SF0 Vol." shortName="SF0Vol" numberOfStates="101" label="%"/>
+	<Param id="10" name="SF1 Vol." shortName="SF1Vol" numberOfStates="101" label="%"/>
+	<Param id="11" name="SF2 Vol." shortName="SF2Vol" numberOfStates="101" label="%"/>
+	<Param id="12" name="SF3 Vol." shortName="SF3Vol" numberOfStates="101" label="%"/>
+	<Param id="13" name="SF4 Vol." shortName="SF4Vol" numberOfStates="101" label="%"/>
+ </VSTParametersStructure>
+</VSTPluginProperties>

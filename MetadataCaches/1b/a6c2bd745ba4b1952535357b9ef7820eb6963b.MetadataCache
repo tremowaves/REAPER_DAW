@@ -1,0 +1,380 @@
+C10018 D:\OneDrive\TREMO-STUDIO\OUR-APP\PinkNoiseMixing\Input
+F "101_Tower_Fire_Magic_var0_(No Noise).wav" 316844 0 1750145284 0
+D s 44100 n 2 l 0:01.197 i 24
+F "10_Ambient_Forest_var9_(No Noise).wav" 2646764 0 1750145790 0
+D s 44100 n 2 l 0:10.002 i 24
+F "141_Safe_Zone_Alert_var0_(No Noise).wav" 532844 0 1750144842 0
+D s 44100 n 2 l 0:02.013 i 24
+F "142_Safe_Zone_Alert_var1_(No Noise).wav" 532844 0 1750144846 0
+D s 44100 n 2 l 0:02.013 i 24
+F "143_Safe_Zone_Alert_var2_(No Noise).wav" 532844 0 1750144850 0
+D s 44100 n 2 l 0:02.013 i 24
+F "144_Safe_Zone_Alert_var3_(No Noise).wav" 532844 0 1750144854 0
+D s 44100 n 2 l 0:02.013 i 24
+F "145_Safe_Zone_Alert_var4_(No Noise).wav" 532844 0 1750144858 0
+D s 44100 n 2 l 0:02.013 i 24
+F "146_Safe_Zone_Alert_var5_(No Noise).wav" 532844 0 1750144862 0
+D s 44100 n 2 l 0:02.013 i 24
+F "149_Safe_Zone_Alert_var8_(No Noise).wav" 532844 0 1750144876 0
+D s 44100 n 2 l 0:02.013 i 24
+F "150_Safe_Zone_Alert_var9_(No Noise).wav" 532844 0 1750144880 0
+D s 44100 n 2 l 0:02.013 i 24
+F "1_Ambient_Field_var0_(No Noise).wav" 2646764 0 1750144586 0
+D s 44100 n 2 l 0:10.002 i 24
+F "1_Ambient_Forest_var0_(No Noise).wav" 2646764 0 1750145734 0
+D s 44100 n 2 l 0:10.002 i 24
+F "1_Ambient_Idle_Loop_var0_(No Noise).wav" 2646764 0 1750152644 0
+D s 44100 n 2 l 0:10.002 i 24
+F "21_Collect_var0_(No Noise).wav" 267884 0 1750152724 0
+D s 44100 n 2 l 0:01.012 i 24
+F "22_Collect_var1_(No Noise).wav" 267884 0 1750152728 0
+D s 44100 n 2 l 0:01.012 i 24
+F "25_Collect_var4_(No Noise).wav" 267884 0 1750152736 0
+D s 44100 n 2 l 0:01.012 i 24
+F "27_Collect_var6_(No Noise).wav" 267884 0 1750152742 0
+D s 44100 n 2 l 0:01.012 i 24
+F "28_Collect_var7_(No Noise).wav" 267884 0 1750152744 0
+D s 44100 n 2 l 0:01.012 i 24
+F "29_Collect_var8_(No Noise).wav" 267884 0 1750152748 0
+D s 44100 n 2 l 0:01.012 i 24
+F "2_Ambient_Forest_var1_(No Noise).wav" 2646764 0 1750145740 0
+D s 44100 n 2 l 0:10.002 i 24
+F "30_Collect_var9_(No Noise).wav" 267884 0 1750152750 0
+D s 44100 n 2 l 0:01.012 i 24
+F "3_Ambient_Forest_var2_(No Noise).wav" 2646764 0 1750145744 0
+D s 44100 n 2 l 0:10.002 i 24
+F "3_Ambient_Idle_Loop_var2_(No Noise).wav" 2646764 0 1750152656 0
+D s 44100 n 2 l 0:10.002 i 24
+F "4_Ambient_Forest_var3_(No Noise).wav" 2646764 0 1750145750 0
+D s 44100 n 2 l 0:10.002 i 24
+F "51_Idle_Click_var0_(No Noise).wav" 267884 0 1750155366 0
+D s 44100 n 2 l 0:01.012 i 24
+F "52_Idle_Click_var1_(No Noise).wav" 267884 0 1750155374 0
+D s 44100 n 2 l 0:01.012 i 24
+F "54_Idle_Click_var3_(No Noise).wav" 267884 0 1750155392 0
+D s 44100 n 2 l 0:01.012 i 24
+F "55_Idle_Click_var4_(No Noise).wav" 267884 0 1750155400 0
+D s 44100 n 2 l 0:01.012 i 24
+F "56_Idle_Click_var5_(No Noise).wav" 267884 0 1750155410 0
+D s 44100 n 2 l 0:01.012 i 24
+F "58_Idle_Click_var7_(No Noise).wav" 267884 0 1750155426 0
+D s 44100 n 2 l 0:01.012 i 24
+F "59_Idle_Click_var8_(No Noise).wav" 267884 0 1750155436 0
+D s 44100 n 2 l 0:01.012 i 24
+F "5_Ambient_Forest_var4_(No Noise).wav" 2646764 0 1750145756 0
+D s 44100 n 2 l 0:10.002 i 24
+F "60_Idle_Click_var9_(No Noise).wav" 267884 0 1750155444 0
+D s 44100 n 2 l 0:01.012 i 24
+F "61_Prestige_var0_(No Noise).wav" 316844 0 1750152978 0
+D s 44100 n 2 l 0:01.197 i 24
+F "62_Prestige_var1_(No Noise).wav" 316844 0 1750152986 0
+D s 44100 n 2 l 0:01.197 i 24
+F "63_Prestige_var2_(No Noise).wav" 316844 0 1750152996 0
+D s 44100 n 2 l 0:01.197 i 24
+F "67_Prestige_var6_(No Noise).wav" 316844 0 1750153030 0
+D s 44100 n 2 l 0:01.197 i 24
+F "68_Prestige_var7_(No Noise).wav" 316844 0 1750153038 0
+D s 44100 n 2 l 0:01.197 i 24
+F "69_Prestige_var8_(No Noise).wav" 316844 0 1750153046 0
+D s 44100 n 2 l 0:01.197 i 24
+F "6_Ambient_Field_var5_(No Noise).wav" 2646764 0 1750144614 0
+D s 44100 n 2 l 0:10.002 i 24
+F "6_Ambient_Forest_var5_(No Noise).wav" 2646764 0 1750145762 0
+D s 44100 n 2 l 0:10.002 i 24
+F "72_Tap_Click_var1_(No Noise).wav" 267884 0 1750153072 0
+D s 44100 n 2 l 0:01.012 i 24
+F "73_Tap_Click_var2_(No Noise).wav" 267884 0 1750153080 0
+D s 44100 n 2 l 0:01.012 i 24
+F "74_Tap_Click_var3_(No Noise).wav" 267884 0 1750153090 0
+D s 44100 n 2 l 0:01.012 i 24
+F "77_Tap_Click_var6_(No Noise).wav" 267884 0 1750153114 0
+D s 44100 n 2 l 0:01.012 i 24
+F "79_Tap_Click_var8_(No Noise).wav" 267884 0 1750153132 0
+D s 44100 n 2 l 0:01.012 i 24
+F "7_Ambient_Forest_var6_(No Noise).wav" 2646764 0 1750145770 0
+D s 44100 n 2 l 0:10.002 i 24
+F "7_Ambient_Idle_Loop_var6_(No Noise).wav" 2646764 0 1750152678 0
+D s 44100 n 2 l 0:10.002 i 24
+F "8_Ambient_Forest_var7_(No Noise).wav" 2646764 0 1750145776 0
+D s 44100 n 2 l 0:10.002 i 24
+F "8_Ambient_Idle_Loop_var7_(No Noise).wav" 2646764 0 1750152684 0
+D s 44100 n 2 l 0:10.002 i 24
+F "9_Ambient_Forest_var8_(No Noise).wav" 2646764 0 1750145782 0
+D s 44100 n 2 l 0:10.002 i 24
+F "9_Ambient_Idle_Loop_var8_(No Noise).wav" 2646764 0 1750152688 0
+D s 44100 n 2 l 0:10.002 i 24
+F Ambient_Environment_Birds_var1.wav 2646764 0 1750144228 0
+D s 44100 n 2 l 0:10.002 i 24
+F Ambient_Environment_Birds_var2.wav 2646764 0 1750144234 0
+D s 44100 n 2 l 0:10.002 i 24
+F Ambient_Environment_Birds_var3.wav 2646764 0 1750144240 0
+D s 44100 n 2 l 0:10.002 i 24
+F Ambient_Environment_Birds_var4.wav 2646764 0 1750144246 0
+D s 44100 n 2 l 0:10.002 i 24
+F Ambient_Environment_Birds_var6.wav 2646764 0 1750144258 0
+D s 44100 n 2 l 0:10.002 i 24
+F Ambient_Environment_Birds_var7.wav 2646764 0 1750144264 0
+D s 44100 n 2 l 0:10.002 i 24
+F Ambient_Environment_Birds_var8.wav 2646764 0 1750144268 0
+D s 44100 n 2 l 0:10.002 i 24
+F Ambient_Environment_Birds_var9.wav 2646764 0 1750144274 0
+D s 44100 n 2 l 0:10.002 i 24
+F "Ambient_Idle_Loop_var0_(No Noise).wav" 2646764 0 1750152644 0
+D s 44100 n 2 l 0:10.002 i 24
+F "Ambient_Idle_Loop_var2_(No Noise).wav" 2646764 0 1750152656 0
+D s 44100 n 2 l 0:10.002 i 24
+F "Ambient_Idle_Loop_var6_(No Noise).wav" 2646764 0 1750152678 0
+D s 44100 n 2 l 0:10.002 i 24
+F "Ambient_Idle_Loop_var7_(No Noise).wav" 2646764 0 1750152684 0
+D s 44100 n 2 l 0:10.002 i 24
+F "Ambient_Idle_Loop_var8_(No Noise).wav" 2646764 0 1750152688 0
+D s 44100 n 2 l 0:10.002 i 24
+F "Ambient_Rain_Night_var7_(No Noise) (16).wav" 2646764 0 1750157682 0
+D s 44100 n 2 l 0:10.002 i 24
+F "Ambient_Rain_Night_var7_(No Noise) (2).wav" 2646764 0 1750157598 0
+D s 44100 n 2 l 0:10.002 i 24
+F BoardUI_Build_Structure_var0.wav 316844 0 1750144190 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Build_Structure_var1.wav 316844 0 1750144194 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Build_Structure_var2.wav 316844 0 1750144196 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Build_Structure_var3.wav 316844 0 1750144200 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Build_Structure_var4.wav 316844 0 1750144202 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Lose_Sound_var0.wav 316844 0 1750145494 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Lose_Sound_var1.wav 316844 0 1750145498 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Lose_Sound_var4.wav 316844 0 1750145511 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Lose_Sound_var5.wav 316844 0 1750145516 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Lose_Sound_var6.wav 316844 0 1750145520 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Notification_var0.wav 267884 0 1750144308 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var0_(Matched)-imported.wav 267884 0 1750670244 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var0_(Matched).wav 267884 0 1750667705 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var1.wav 267884 0 1750144310 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var10.wav 267884 0 1750145564 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var10_(Matched)-imported.wav 267884 0 1750670390 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var10_(Matched).wav 267884 0 1750667955 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var11.wav 267884 0 1750145569 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var11_(Matched)-imported.wav 267884 0 1750670404 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var11_(Matched).wav 267884 0 1750667965 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var1_(Matched)-imported.wav 267884 0 1750670272 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var1_(Matched).wav 267884 0 1750667815 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var2.wav 267884 0 1750145536 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var2_(Matched)-imported.wav 267884 0 1750670293 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var2_(Matched).wav 267884 0 1750667830 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var3.wav 267884 0 1750145560 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var3_(Matched)-imported.wav 267884 0 1750670308 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var3_(Matched).wav 267884 0 1750667846 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var4.wav 267884 0 1750145553 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var4_(Matched)-imported.wav 267884 0 1750670322 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var4_(Matched).wav 267884 0 1750667861 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var5.wav 267884 0 1750145556 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var5_(Matched)-imported.wav 267884 0 1750670336 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var5_(Matched).wav 267884 0 1750667881 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var6.wav 267884 0 1750144326 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var6_(Matched)-imported.wav 267884 0 1750670346 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var6_(Matched).wav 267884 0 1750667895 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var7.wav 267884 0 1750144328 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var7_(Matched)-imported.wav 267884 0 1750670359 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var7_(Matched).wav 267884 0 1750667914 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var8.wav 267884 0 1750144330 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var8_(Matched)-imported.wav 267884 0 1750670370 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var8_(Matched).wav 267884 0 1750667929 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var9.wav 267884 0 1750145572 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var9_(Matched)-imported.wav 267884 0 1750670379 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var9_(Matched).wav 267884 0 1750667942 0
+D s 44100 n 2 l 0:01.012 i 24
+F "Earthquake Spell (V1).wav" 928434 0 1750057837 0
+D y 2025-06-16 s 44100 n 1 l 0:07.012
+D i 24
+F processed_Ambient_Environment_Birds_var1.wav 1764524 0 1750647243 0
+D s 44100 n 2 l 0:10.002 i 16
+F processed_Ambient_Environment_Birds_var2.wav 1764524 0 1750647243 0
+D s 44100 n 2 l 0:10.002 i 16
+F processed_Ambient_Environment_Birds_var3.wav 1764524 0 1750647243 0
+D s 44100 n 2 l 0:10.002 i 16
+F processed_Ambient_Environment_Birds_var4.wav 1764524 0 1750647243 0
+D s 44100 n 2 l 0:10.002 i 16
+F processed_Ambient_Environment_Birds_var6.wav 1764524 0 1750647243 0
+D s 44100 n 2 l 0:10.002 i 16
+F processed_Ambient_Environment_Birds_var7.wav 1764524 0 1750647244 0
+D s 44100 n 2 l 0:10.002 i 16
+F processed_Ambient_Environment_Birds_var8.wav 1764524 0 1750647244 0
+D s 44100 n 2 l 0:10.002 i 16
+F processed_Ambient_Environment_Birds_var9.wav 1764524 0 1750647244 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var0_(No Noise)-imported-001.wav" 1764524 0 1750326248 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var0_(No Noise)-imported.wav" 1764524 0 1750325977 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var0_(No Noise).wav" 1764524 0 1750324226 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var2_(No Noise)-imported-001.wav" 1764524 0 1750326248 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var2_(No Noise)-imported.wav" 1764524 0 1750325978 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var2_(No Noise).wav" 1764524 0 1750324226 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var6_(No Noise)-imported-001.wav" 1764524 0 1750326248 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var6_(No Noise)-imported.wav" 1764524 0 1750325978 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var6_(No Noise).wav" 1764524 0 1750324226 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var7_(No Noise)-imported-001.wav" 1764524 0 1750326248 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var7_(No Noise)-imported.wav" 1764524 0 1750325978 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var7_(No Noise).wav" 1764524 0 1750324226 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var8_(No Noise)-imported-001.wav" 1764524 0 1750326249 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var8_(No Noise)-imported.wav" 1764524 0 1750325979 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Idle_Loop_var8_(No Noise).wav" 1764524 0 1750324226 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Rain_Night_var7_(No Noise) (16).wav" 1764524 0 1750318621 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Rain_Night_var7_(No Noise) (8).wav" 1764524 0 1750318622 0
+D s 44100 n 2 l 0:10.002 i 16
+F "processed_Ambient_Rain_Night_var7_(No Noise) (9).wav" 1764524 0 1750318622 0
+D s 44100 n 2 l 0:10.002 i 16
+F processed_BoardUI_Build_Structure_var0.wav 211244 0 1750647245 0
+D s 44100 n 2 l 0:01.197 i 16
+F processed_BoardUI_Build_Structure_var1.wav 211244 0 1750647245 0
+D s 44100 n 2 l 0:01.197 i 16
+F processed_BoardUI_Build_Structure_var2.wav 211244 0 1750647245 0
+D s 44100 n 2 l 0:01.197 i 16
+F processed_BoardUI_Build_Structure_var3.wav 211244 0 1750647245 0
+D s 44100 n 2 l 0:01.197 i 16
+F processed_BoardUI_Build_Structure_var4.wav 211244 0 1750647245 0
+D s 44100 n 2 l 0:01.197 i 16
+F processed_BoardUI_Lose_Sound_var0.wav 211244 0 1750647245 0
+D s 44100 n 2 l 0:01.197 i 16
+F processed_BoardUI_Lose_Sound_var1.wav 211244 0 1750647245 0
+D s 44100 n 2 l 0:01.197 i 16
+F processed_BoardUI_Lose_Sound_var4.wav 211244 0 1750647245 0
+D s 44100 n 2 l 0:01.197 i 16
+F processed_BoardUI_Lose_Sound_var5.wav 211244 0 1750647245 0
+D s 44100 n 2 l 0:01.197 i 16
+F processed_BoardUI_Lose_Sound_var6.wav 211244 0 1750647245 0
+D s 44100 n 2 l 0:01.197 i 16
+F "processed_Tap_Click_var1_(No Noise)-imported-001.wav" 178604 0 1750326249 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var1_(No Noise)-imported.wav" 178604 0 1750325979 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var1_(No Noise).wav" 178604 0 1750324226 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var2_(No Noise)-imported-001.wav" 178604 0 1750326249 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var2_(No Noise)-imported.wav" 178604 0 1750325979 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var2_(No Noise).wav" 178604 0 1750324226 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var3_(No Noise)-imported-001.wav" 178604 0 1750326249 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var3_(No Noise)-imported.wav" 178604 0 1750325979 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var3_(No Noise).wav" 178604 0 1750324226 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var6_(No Noise)-imported-001.wav" 178604 0 1750326249 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var6_(No Noise)-imported.wav" 178604 0 1750325979 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var6_(No Noise).wav" 178604 0 1750324226 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var8_(No Noise)-imported-001.wav" 178604 0 1750326249 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var8_(No Noise)-imported.wav" 178604 0 1750325979 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Tap_Click_var8_(No Noise).wav" 178604 0 1750324226 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_TokenMarker_Money_Collect_var0.wav 178604 0 1750647246 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_TokenMarker_Money_Collect_var1.wav 178604 0 1750647246 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_TokenMarker_Money_Collect_var2.wav 178604 0 1750647246 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_TokenMarker_Money_Collect_var3.wav 178604 0 1750647246 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_TokenMarker_Money_Collect_var4.wav 178604 0 1750647246 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_TokenMarker_Money_Collect_var5.wav 178604 0 1750647246 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_TokenMarker_Money_Collect_var6.wav 178604 0 1750647246 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_TokenMarker_Money_Collect_var7.wav 178604 0 1750647246 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_TokenMarker_Money_Collect_var8.wav 178604 0 1750647246 0
+D s 44100 n 2 l 0:01.012 i 16
+F "processed_Window_Rattle_var9_(No Noise) (1).wav" 265004 0 1750318622 0
+D s 44100 n 2 l 0:01.502 i 16
+F "Tap_Click_var1_(No Noise).wav" 267884 0 1750153072 0
+D s 44100 n 2 l 0:01.012 i 24
+F "Tap_Click_var2_(No Noise).wav" 267884 0 1750153080 0
+D s 44100 n 2 l 0:01.012 i 24
+F "Tap_Click_var3_(No Noise).wav" 267884 0 1750153090 0
+D s 44100 n 2 l 0:01.012 i 24
+F "Tap_Click_var6_(No Noise).wav" 267884 0 1750153114 0
+D s 44100 n 2 l 0:01.012 i 24
+F "Tap_Click_var8_(No Noise).wav" 267884 0 1750153132 0
+D s 44100 n 2 l 0:01.012 i 24
+F TokenMarker_Money_Collect_var0.wav 267884 0 1750144278 0
+D s 44100 n 2 l 0:01.012 i 24
+F TokenMarker_Money_Collect_var1.wav 267884 0 1750144280 0
+D s 44100 n 2 l 0:01.012 i 24
+F TokenMarker_Money_Collect_var2.wav 267884 0 1750144282 0
+D s 44100 n 2 l 0:01.012 i 24
+F TokenMarker_Money_Collect_var3.wav 267884 0 1750144286 0
+D s 44100 n 2 l 0:01.012 i 24
+F TokenMarker_Money_Collect_var4.wav 267884 0 1750144288 0
+D s 44100 n 2 l 0:01.012 i 24
+F TokenMarker_Money_Collect_var5.wav 267884 0 1750144292 0
+D s 44100 n 2 l 0:01.012 i 24
+F TokenMarker_Money_Collect_var6.wav 267884 0 1750144294 0
+D s 44100 n 2 l 0:01.012 i 24
+F TokenMarker_Money_Collect_var7.wav 267884 0 1750144298 0
+D s 44100 n 2 l 0:01.012 i 24
+F TokenMarker_Money_Collect_var8.wav 267884 0 1750144302 0
+D s 44100 n 2 l 0:01.012 i 24

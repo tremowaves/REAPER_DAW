@@ -1,0 +1,409 @@
+C10018 "D:\OneDrive\CLIENT PROJECTS\3D Archtech\3D_Map\Reaper\Media"
+F "10-NeoRetro 2-250523_1104.wav" 67538488 0 1747973559 0
+D y 2025-05-23 s 44100 n 1 l 8:30.489
+D i 24
+F "101_Gathering_Stone_var0_(No Noise).wav" 316844 0 1750146073 0
+D s 44100 n 2 l 0:01.197 i 24
+F "103_Gathering_Stone_var2_(No Noise).wav" 316844 0 1750146079 0
+D s 44100 n 2 l 0:01.197 i 24
+F "110_Gathering_Stone_var9_(No Noise).wav" 316844 0 1750146099 0
+D s 44100 n 2 l 0:01.197 i 24
+F "111_Gathering_Wood_var0_(No Noise).wav" 316844 0 1750146102 0
+D s 44100 n 2 l 0:01.197 i 24
+F "112_Gathering_Wood_var1_(No Noise).wav" 316844 0 1750146105 0
+D s 44100 n 2 l 0:01.197 i 24
+F "113_Gathering_Wood_var2_(No Noise).wav" 316844 0 1750146108 0
+D s 44100 n 2 l 0:01.197 i 24
+F "114_Gathering_Wood_var3_(No Noise).wav" 316844 0 1750146111 0
+D s 44100 n 2 l 0:01.197 i 24
+F "115_Gathering_Wood_var4_(No Noise).wav" 316844 0 1750146113 0
+D s 44100 n 2 l 0:01.197 i 24
+F "116_Gathering_Wood_var5_(No Noise).wav" 316844 0 1750146116 0
+D s 44100 n 2 l 0:01.197 i 24
+F "117_Gathering_Wood_var6_(No Noise).wav" 316844 0 1750146119 0
+D s 44100 n 2 l 0:01.197 i 24
+F "118_Gathering_Wood_var7_(No Noise).wav" 316844 0 1750146122 0
+D s 44100 n 2 l 0:01.197 i 24
+F "119_Gathering_Wood_var8_(No Noise).wav" 316844 0 1750146125 0
+D s 44100 n 2 l 0:01.197 i 24
+F "120_Gathering_Wood_var9_(No Noise).wav" 316844 0 1750146128 0
+D s 44100 n 2 l 0:01.197 i 24
+F "130_Inventory_Open_var9_(No Noise).wav" 267884 0 1750146156 0
+D s 44100 n 2 l 0:01.012 i 24
+F "141_Weapon_Impact_var0_(No Noise).wav" 316844 0 1750146188 0
+D s 44100 n 2 l 0:01.197 i 24
+F "142_Weapon_Impact_var1_(No Noise).wav" 316844 0 1750146191 0
+D s 44100 n 2 l 0:01.197 i 24
+F "143_Weapon_Impact_var2_(No Noise).wav" 316844 0 1750146193 0
+D s 44100 n 2 l 0:01.197 i 24
+F "144_Weapon_Impact_var3_(No Noise).wav" 316844 0 1750146196 0
+D s 44100 n 2 l 0:01.197 i 24
+F "145_Weapon_Impact_var4_(No Noise).wav" 316844 0 1750146200 0
+D s 44100 n 2 l 0:01.197 i 24
+F "146_Puzzle_Tile_Move_var5_(No Noise).wav" 316844 0 1750151529 0
+D s 44100 n 2 l 0:01.197 i 24
+F "146_Weapon_Impact_var5_(No Noise).wav" 316844 0 1750146203 0
+D s 44100 n 2 l 0:01.197 i 24
+F "147_Weapon_Impact_var6_(No Noise).wav" 316844 0 1750146206 0
+D s 44100 n 2 l 0:01.197 i 24
+F "148_Weapon_Impact_var7_(No Noise).wav" 316844 0 1750146209 0
+D s 44100 n 2 l 0:01.197 i 24
+F "149_Weapon_Impact_var8_(No Noise).wav" 316844 0 1750146212 0
+D s 44100 n 2 l 0:01.197 i 24
+F "150_Weapon_Impact_var9_(No Noise).wav" 316844 0 1750146214 0
+D s 44100 n 2 l 0:01.197 i 24
+F "152_Weapon_Swing_var1_(No Noise).wav" 267884 0 1750146220 0
+D s 44100 n 2 l 0:01.012 i 24
+F "153_Weapon_Swing_var2_(No Noise).wav" 267884 0 1750146223 0
+D s 44100 n 2 l 0:01.012 i 24
+F "154_Weapon_Swing_var3_(No Noise).wav" 267884 0 1750146226 0
+D s 44100 n 2 l 0:01.012 i 24
+F "155_Weapon_Swing_var4_(No Noise).wav" 267884 0 1750146229 0
+D s 44100 n 2 l 0:01.012 i 24
+F "156_Weapon_Swing_var5_(No Noise).wav" 267884 0 1750146232 0
+D s 44100 n 2 l 0:01.012 i 24
+F "157_Weapon_Swing_var6_(No Noise).wav" 267884 0 1750146234 0
+D s 44100 n 2 l 0:01.012 i 24
+F "159_Weapon_Swing_var8_(No Noise).wav" 267884 0 1750146240 0
+D s 44100 n 2 l 0:01.012 i 24
+F "160_Weapon_Swing_var9_(No Noise).wav" 267884 0 1750146243 0
+D s 44100 n 2 l 0:01.012 i 24
+F "1_Ambient_Forest_var0_(No Noise).wav" 2646764 0 1750145732 0
+D s 44100 n 2 l 0:10.002 i 24
+F "21_Construction_var0_(No Noise).wav" 316844 0 1750145825 0
+D s 44100 n 2 l 0:01.197 i 24
+F "22_Construction_var1_(No Noise).wav" 316844 0 1750145828 0
+D s 44100 n 2 l 0:01.197 i 24
+F "23_Construction_var2_(No Noise).wav" 316844 0 1750145831 0
+D s 44100 n 2 l 0:01.197 i 24
+F "24_Construction_var3_(No Noise).wav" 316844 0 1750145834 0
+D s 44100 n 2 l 0:01.197 i 24
+F "25_Construction_var4_(No Noise).wav" 316844 0 1750145838 0
+D s 44100 n 2 l 0:01.197 i 24
+F "26_Construction_var5_(No Noise).wav" 316844 0 1750145841 0
+D s 44100 n 2 l 0:01.197 i 24
+F "27_Construction_var6_(No Noise).wav" 316844 0 1750145844 0
+D s 44100 n 2 l 0:01.197 i 24
+F "31_Crafting_var0_(No Noise).wav" 316844 0 1750145857 0
+D s 44100 n 2 l 0:01.197 i 24
+F "32_Crafting_var1_(No Noise).wav" 316844 0 1750145861 0
+D s 44100 n 2 l 0:01.197 i 24
+F "33_Crafting_var2_(No Noise).wav" 316844 0 1750145864 0
+D s 44100 n 2 l 0:01.197 i 24
+F "34_Crafting_var3_(No Noise).wav" 316844 0 1750145867 0
+D s 44100 n 2 l 0:01.197 i 24
+F "35_Crafting_var4_(No Noise).wav" 316844 0 1750145871 0
+D s 44100 n 2 l 0:01.197 i 24
+F "36_Crafting_var5_(No Noise).wav" 316844 0 1750145874 0
+D s 44100 n 2 l 0:01.197 i 24
+F "37_Crafting_var6_(No Noise).wav" 316844 0 1750145877 0
+D s 44100 n 2 l 0:01.197 i 24
+F "38_Crafting_var7_(No Noise).wav" 316844 0 1750145881 0
+D s 44100 n 2 l 0:01.197 i 24
+F "40_Crafting_var9_(No Noise).wav" 316844 0 1750145887 0
+D s 44100 n 2 l 0:01.197 i 24
+F 55-Noise-250620_1029.wav 949488 0 1750390162 0
+D y 2025-06-20 s 44100 n 1 l 0:07.171
+D i 24
+F "65_Fire_Camp_var4_(No Noise).wav" 532844 0 1750145964 0
+D s 44100 n 2 l 0:02.013 i 24
+F "6_Ambient_Forest_var5_(No Noise).wav" 2646764 0 1750145761 0
+D s 44100 n 2 l 0:10.002 i 24
+F "71_Footstep_Dirt_var0_(No Noise).wav" 316844 0 1750145983 0
+D s 44100 n 2 l 0:01.197 i 24
+F "72_Footstep_Dirt_var1_(No Noise).wav" 316844 0 1750145986 0
+D s 44100 n 2 l 0:01.197 i 24
+F "73_Footstep_Dirt_var2_(No Noise).wav" 316844 0 1750145989 0
+D s 44100 n 2 l 0:01.197 i 24
+F "74_Footstep_Dirt_var3_(No Noise).wav" 316844 0 1750145993 0
+D s 44100 n 2 l 0:01.197 i 24
+F "76_Footstep_Dirt_var5_(No Noise).wav" 316844 0 1750146000 0
+D s 44100 n 2 l 0:01.197 i 24
+F "77_Footstep_Dirt_var6_(No Noise).wav" 316844 0 1750146003 0
+D s 44100 n 2 l 0:01.197 i 24
+F "79_Footstep_Dirt_var8_(No Noise).wav" 316844 0 1750146009 0
+D s 44100 n 2 l 0:01.197 i 24
+F "80_Footstep_Dirt_var9_(No Noise).wav" 316844 0 1750146012 0
+D s 44100 n 2 l 0:01.197 i 24
+F "81_Footstep_Grass_var0_(No Noise).wav" 316844 0 1750146015 0
+D s 44100 n 2 l 0:01.197 i 24
+F "82_Footstep_Grass_var1_(No Noise).wav" 316844 0 1750146018 0
+D s 44100 n 2 l 0:01.197 i 24
+F "83_Footstep_Grass_var2_(No Noise).wav" 316844 0 1750146021 0
+D s 44100 n 2 l 0:01.197 i 24
+F "85_Footstep_Grass_var4_(No Noise).wav" 316844 0 1750146027 0
+D s 44100 n 2 l 0:01.197 i 24
+F "88_Footstep_Grass_var7_(No Noise).wav" 316844 0 1750146036 0
+D s 44100 n 2 l 0:01.197 i 24
+F "89_Footstep_Grass_var8_(No Noise).wav" 316844 0 1750146039 0
+D s 44100 n 2 l 0:01.197 i 24
+F "90_Footstep_Grass_var9_(No Noise).wav" 316844 0 1750146042 0
+D s 44100 n 2 l 0:01.197 i 24
+F BoardUI_Notification_var0.wav 267884 0 1750669928 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var1.wav 267884 0 1750669934 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var2.wav 267884 0 1750669939 0
+D s 44100 n 2 l 0:01.012 i 24
+F BoardUI_Notification_var3.wav 267884 0 1750669945 0
+D s 44100 n 2 l 0:01.012 i 24
+F button_cancel-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:21.000
+D l 0:00.750 i 24
+F button_cancel.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:31.500
+D l 0:00.750 i 24
+F button_confirm-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:21.750
+D l 0:00.750 i 24
+F button_confirm.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:32.250
+D l 0:00.750 i 24
+F button_tap-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:22.500
+D l 0:00.750 i 24
+F button_tap.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:33.000
+D l 0:00.750 i 24
+F button_toggle_off-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:23.250
+D l 0:00.750 i 24
+F button_toggle_off.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:33.750
+D l 0:00.750 i 24
+F button_toggle_on-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:24.000
+D l 0:00.750 i 24
+F button_toggle_on.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:34.500
+D l 0:00.750 i 24
+F DNT2024_Sound_Music_Maintheme_LongerVer_Hoang_Dm_97_LUFS-22.wav 28841598 0 1721965959 0
+D y 2024-07-26 s 44100 n 2 r 1:00:00.009
+D l 1:48.856 i 24
+F "Kieu 2 ( Menh ) - 85 Bpm - Am-ver2.mp3" 5128776 0 1747224250 0
+D s 44100 n 2 l 5:20.470 i 128k
+F "Kieu 2 ( Menh ) - 85 Bpm - Am.mp3" 3863613 0 1747139262 0
+D s 44100 n 2 l 4:01.411 i 128k
+F menu_close-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:24.750
+D l 0:00.750 i 24
+F menu_close.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:35.250
+D l 0:00.750 i 24
+F menu_open-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:25.500
+D l 0:00.750 i 24
+F menu_open.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:36.000
+D l 0:00.750 i 24
+F normalized_BoardUI_Notification_var0.wav 178604 0 1750670206 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_BoardUI_Notification_var1.wav 178604 0 1750670206 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_BoardUI_Notification_var10.wav 178604 0 1750670206 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_BoardUI_Notification_var11.wav 178604 0 1750670206 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_BoardUI_Notification_var2.wav 178604 0 1750670206 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_BoardUI_Notification_var3.wav 178604 0 1750670206 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_BoardUI_Notification_var4.wav 178604 0 1750670206 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_BoardUI_Notification_var6.wav 178604 0 1750670206 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_BoardUI_Notification_var8.wav 178604 0 1750670206 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_BoardUI_Notification_var9.wav 178604 0 1750670206 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_button_cancel-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_button_cancel.wav 132344 0 1750677104 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_button_confirm-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_button_confirm.wav 132344 0 1750677104 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_button_tap-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_button_tap.wav 132344 0 1750677104 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_button_toggle_off-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_button_toggle_off.wav 132344 0 1750677104 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_button_toggle_on-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_button_toggle_on.wav 132344 0 1750677104 0
+D s 44100 n 2 l 0:00.750 i 16
+F "normalized_Kieu 2 ( Menh ) - 85 Bpm - Am-ver2.wav" 56531056 0 1750674264 0
+D s 44100 n 2 l 5:20.470 i 16
+F "normalized_Kieu 2 ( Menh ) - 85 Bpm - Am.wav" 42585080 0 1750674445 0
+D s 44100 n 2 l 4:01.411 i 16
+F normalized_menu_close-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_menu_close.wav 132344 0 1750677104 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_menu_open-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_menu_open.wav 132344 0 1750677104 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_notification-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_notification.wav 132344 0 1750677104 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_notification_critical-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_notification_critical.wav 132344 0 1750677104 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_notification_error-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_notification_error.wav 132344 0 1750677105 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_notification_info-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_notification_info.wav 132344 0 1750677105 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_notification_success-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_notification_success.wav 132344 0 1750677105 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_processed_BoardUI_Notification_var0.wav 178604 0 1750675806 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var1.wav 178604 0 1750675806 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var10.wav 178604 0 1750675806 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var11.wav 178604 0 1750675806 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var2.wav 178604 0 1750675806 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var3.wav 178604 0 1750675806 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var4.wav 178604 0 1750675806 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var5.wav 178604 0 1750675806 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var6.wav 178604 0 1750675806 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var7.wav 178604 0 1750675806 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var8.wav 178604 0 1750675807 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_processed_BoardUI_Notification_var9.wav 178604 0 1750675807 0
+D s 44100 n 2 l 0:01.012 i 16
+F normalized_transition_backward-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_transition_backward.wav 132344 0 1750677105 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_transition_forward-imported.wav 132344 0 1750677615 0
+D s 44100 n 2 l 0:00.750 i 16
+F normalized_transition_forward.wav 132344 0 1750677105 0
+D s 44100 n 2 l 0:00.750 i 16
+F notification-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:26.250
+D l 0:00.750 i 24
+F notification.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:36.750
+D l 0:00.750 i 24
+F notification_critical-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:27.000
+D l 0:00.750 i 24
+F notification_critical.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:37.500
+D l 0:00.750 i 24
+F notification_error-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:27.750
+D l 0:00.750 i 24
+F notification_error.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:38.250
+D l 0:00.750 i 24
+F notification_info-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:28.500
+D l 0:00.750 i 24
+F notification_info.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:39.000
+D l 0:00.750 i 24
+F notification_success-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:29.250
+D l 0:00.750 i 24
+F notification_success.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:39.750
+D l 0:00.750 i 24
+F Overall.mp4 1735978748 0 1748421825 0
+D s 48000 n 2 l 4:46.551 i 48380k
+F processed_ambient_Noise-imported-001.wav 595396 0 1750392467 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_ambient_Noise-imported-002.wav 595396 0 1750393846 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_ambient_Noise-imported-003.wav 595396 0 1750394445 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_ambient_Noise-imported.wav 595396 0 1750391928 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_ambient_Noise.wav 595396 0 1750390873 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_BoardUI_Notification_var0.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var1.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var10.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var11.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var2.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var3.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var4.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var5.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var6.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var7.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var8.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_BoardUI_Notification_var9.wav 178604 0 1750647244 0
+D s 44100 n 2 l 0:01.012 i 16
+F processed_dialog_Noise-imported-001.wav 595396 0 1750392467 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_dialog_Noise-imported-002.wav 595396 0 1750393846 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_dialog_Noise-imported-003.wav 595396 0 1750394445 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_dialog_Noise-imported.wav 595396 0 1750391928 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_dialog_Noise.wav 595396 0 1750390873 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_UI_Noise-imported-001.wav 595396 0 1750392467 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_UI_Noise-imported-002.wav 595396 0 1750393846 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_UI_Noise-imported-003.wav 595396 0 1750394445 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_UI_Noise-imported.wav 595396 0 1750391928 0
+D s 44100 n 2 l 0:03.375 i 16
+F processed_UI_Noise.wav 595396 0 1750390873 0
+D s 44100 n 2 l 0:03.375 i 16
+F re-gain.wav 47628690 0 1750674872 0
+D y 2025-06-23 s 44100 n 2 r 0:08.000
+D l 3:00.000 i 24
+F transition_backward-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:30.000
+D l 0:00.750 i 24
+F transition_backward.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:40.500
+D l 0:00.750 i 24
+F transition_forward-imported.wav 199140 0 1748841221 0
+D y 2025-06-02 s 44100 n 2 r 10:30.750
+D l 0:00.750 i 24
+F transition_forward.wav 199140 0 1748841101 0
+D y 2025-06-02 s 44100 n 2 r 8:41.250
+D l 0:00.750 i 24
+F UIFlycam.wav 247590 0 1742286157 0
+D y 2025-03-13 s 48000 n 2 l 0:00.857
+D i 24
+F UITime.wav 4740 0 1742286157 0
+D y 2025-03-13 s 48000 n 1 l 0:00.028
+D i 24
