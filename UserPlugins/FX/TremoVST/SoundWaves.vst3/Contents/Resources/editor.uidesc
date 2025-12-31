@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vstgui-ui-description version="1">
+	<template class="CViewContainer" name="view" size="400, 300">
+		<view class="CTextLabel" origin="20, 20" size="360, 30" text="SoundWaves VST3 Plugin"/>
+		<view class="CTextLabel" origin="20, 60" size="360, 20" text="Audio Effect Plugin"/>
+		<view class="CTextLabel" origin="20, 100" size="360, 20" text="Version 1.0.0"/>
+		<view class="CTextLabel" origin="20, 140" size="360, 20" text="Built with VST3 SDK"/>
+		<view class="CTextLabel" origin="20, 180" size="360, 20" text="Ready to use!"/>
+	</template>
+</vstgui-ui-description>

@@ -1,0 +1,121 @@
+C10018 "D:\OneDrive\CLIENT PROJECTS\ConNit\Vietnamtoi\vietnamtoi\Media"
+F "01 Wind A.wav" 13762606 0 1654824002 0
+D s 44100 n 2 l 0:52.012 i 24
+F "1_VIỆT NAM TRONG TÔI LÀ - NGỌC TRÂM ll Lyric Video ll MÁU ĐỎ DA VÀNG TÔI LÀ NGƯỜI VIỆT NAM 🔥🔥_(Instrumental).wav" 56221740 0 1766382347 0
+D s 44100 n 2 l 5:18.717 i 16
+F "1_VIỆT NAM TRONG TÔI LÀ - YẾN LÊ __ Official Lyric Video_(Instrumental).wav" 45633580 0 1766383892 0
+D s 44100 n 2 l 4:18.693 i 16
+F "1_VIỆT NAM trong tôi là _ Meta Rock Version_(Instrumental).wav" 52793388 0 1766382307 0
+D s 44100 n 2 l 4:59.281 i 16
+F "1_VIỆT NAM trong tôi là _ Meta Rock Version_(Vocals).wav" 52793388 0 1766382330 0
+D s 44100 n 2 l 4:59.281 i 16
+F "Ambience City With Rain 01.wav" 17316696 0 1326639962 0
+D t "Ambience City With Rain " a "Adobe Systems Incorporated" b "Adobe Audition Sound Effects" y 2006-11-07
+D g "Sound Effect" d "fUBITS=$00000000  fSCENE=Scene01  fTAKE=039  fTAPE=PCM000    fEVENT=01572  fSPEED=029.970-ND  fNOTE=  " p 119.8 k C
+D s 48000 n 2 r 3:15:00.222 l 1:30.113
+D i 16
+F "Animal Ambience Jungle Rain Forest Insects Creatures 02.wav" 17344830 0 1326640164 0
+D t "Animal Ambience Jungle Rain Forest Insects Creatures " a "Adobe Systems Incorporated" b "Adobe Audition Sound Effects" y " "
+D g "Sound Effect" c " " s 48000 n 2
+D l 1:30.090 i 16
+F "CFCK WINGS Single Flap Dry Leather Cloth Soft.wav" 5804596 0 1645394489 0
+D t "CFCK WINGS Single Flap Dry Leather Cloth Soft.wav" a "BOOM Library" y 2019-04-24 g Creature
+D c "SWING LARGE FLABBY Quick, single whoosh, swoosh. Flapping, batting, shaking, rustling. Muffled with low-mid resonance." d "SWING LARGE FLABBY Quick, single whoosh, swoosh. Flapping, batting, shaking, rustling. Muffled with low-mid resonance." s 96000 n 1
+D l 0:19.500 i 24 m 0 j "mime:image/jpeg offset:5617399 length:43890"
+F cloth_movement_3.wav 807864 0 1654823524 0
+D s 48000 n 1 l 0:05.609 i 24
+F D-F_processed.wav 27851304 0 1766384232 0
+D s 44100 n 2 l 2:37.886 i 16
+F elm_gun_50cal_dist07.wav 246738 0 1338548044 0
+D s 22050 n 1 l 0:05.593 i 16
+F ESM_Footstep_on_Gravel_10_Human_Foot_Step_Stone.wav 241230 0 1650551834 0
+D y 2015 g "Game Sounds" c "footstep, hit, tap, boot, scuff, feet, foot, footsteps, walk, walking, action, concrete, fast, floor, hard, man, run, running, running-man, running-woman, sound, step, foley, house, human, tiles" d "16bit 44100khz"
+D s 44100 n 2 r 1:00:02.624 l 0:00.541
+D i 16 m 0 j "mime:image/jpeg offset:96272 length:36443"
+F ESM_Footstep_on_Gravel_7_Human_Foot_Step_Stone.wav 233862 0 1650551741 0
+D y 2015 g "Game Sounds" c "footstep, hit, tap, boot, scuff, feet, foot, footsteps, walk, walking, action, concrete, fast, floor, hard, man, run, running, running-man, running-woman, sound, step, foley, house, human, tiles" d "16bit 44100khz"
+D s 44100 n 2 r 1:00:03.437 l 0:00.500
+D i 16 m 0 j "mime:image/jpeg offset:88920 length:36443"
+F ESM_Footstep_on_Gravel_8_Human_Foot_Step_Stone.wav 255826 0 1650551628 0
+D y 2015 g "Game Sounds" c "footstep, hit, tap, boot, scuff, feet, foot, footsteps, walk, walking, action, concrete, fast, floor, hard, man, run, running, running-man, running-woman, sound, step, foley, house, human, tiles" d "16bit 44100khz"
+D s 44100 n 2 r 1:00:03.250 l 0:00.624
+D i 16 m 0 j "mime:image/jpeg offset:110876 length:36443"
+F ESM_Footstep_on_Gravel_9_Human_Foot_Step_Stone.wav 248570 0 1650551750 0
+D y 2015 g "Game Sounds" c "footstep, hit, tap, boot, scuff, feet, foot, footsteps, walk, walking, action, concrete, fast, floor, hard, man, run, running, running-man, running-woman, sound, step, foley, house, human, tiles" d "16bit 44100khz"
+D s 44100 n 2 r 1:00:03.041 l 0:00.583
+D i 16 m 0 j "mime:image/jpeg offset:103620 length:36443"
+F Final-imported-001.wav 85731090 0 1766469982 0
+D y 2025-12-23 s 44100 n 2 l 5:24.000
+D i 24
+F Final.wav 85731090 0 1766384589 0
+D y 2025-12-22 s 44100 n 2 l 5:24.000
+D i 24
+F "Foley Cloth Flap Jacket 03.wav" 694110 0 1326640588 0
+D t "Foley Cloth Flap Jacket " a "Adobe Systems Incorporated" b "Adobe Audition Sound Effects" y " "
+D g "Sound Effect" s 48000 n 2 l 0:03.538
+D i 16
+F "Foley Clothes Belt Putting On 01.wav" 1007608 0 1326640588 0
+D t "Foley Clothes Belt Putting On " a "Adobe Systems Incorporated" b "Adobe Audition Sound Effects" y " "
+D g "Sound Effect" s 48000 n 2 l 0:05.168
+D i 16
+F "Foley Clothes Sleeve Pull Up Sleeve 01.wav" 405936 0 1326640588 0
+D t "Foley Clothes Sleeve Pull Up Sleeve " a "Adobe Systems Incorporated" b "Adobe Audition Sound Effects" y " "
+D g "Sound Effect" s 48000 n 2 l 0:02.039
+D i 16
+F "Household Pillow Fluffing 04.wav" 205692 0 1326640786 0
+D t "Household Pillow Fluffing " a "Adobe Systems Incorporated" b "Adobe Audition Sound Effects" y " "
+D g "Sound Effect" s 48000 n 2 l 0:01.002
+D i 16
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Backing Vocals).mp3" 3849295 0 1766562644 0
+D t "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Backing Vocals)" a tenseeffectspedals355 s 48000 n 2
+D l 5:02.000 i 101k j "mime:image/jpeg offset:337 length:14342"
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Bass).mp3" 2471411 0 1766562644 0
+D t "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Bass)" a tenseeffectspedals355 s 48000 n 2
+D l 5:02.000 i 65k j "mime:image/jpeg offset:317 length:14342"
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Bass).wav" 57984078 0 1766576523 0
+D s 48000 n 2 l 5:02.000 i 16
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Drums).mp3" 6064669 0 1766562644 0
+D t "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Drums)" a tenseeffectspedals355 s 48000 n 2
+D l 5:02.000 i 160k j "mime:image/jpeg offset:319 length:14342"
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (FX).mp3" 2260663 0 1766562644 0
+D t "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (FX)" a tenseeffectspedals355 s 48000 n 2
+D l 5:02.000 i 59k j "mime:image/jpeg offset:313 length:14342"
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Keyboard).mp3" 3955339 0 1766562644 0
+D t "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Keyboard)" a tenseeffectspedals355 s 48000 n 2
+D l 5:02.000 i 104k j "mime:image/jpeg offset:325 length:14342"
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Keyboard).wav" 57984078 0 1766576544 0
+D s 48000 n 2 l 5:02.000 i 16
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Strings).mp3" 2812601 0 1766562644 0
+D t "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Strings)" a tenseeffectspedals355 s 48000 n 2
+D l 5:02.000 i 74k j "mime:image/jpeg offset:323 length:14342"
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Strings).wav" 57984078 0 1766576673 0
+D s 48000 n 2 l 5:02.000 i 16
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Synth).mp3" 1787317 0 1766562644 0
+D t "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Synth)" a tenseeffectspedals355 s 48000 n 2
+D l 5:02.000 i 47k j "mime:image/jpeg offset:319 length:14342"
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Synth).wav" 57984078 0 1766576673 0
+D s 48000 n 2 l 5:02.000 i 16
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Vocals).mp3" 4983255 0 1766562644 0
+D t "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Vocals)" a tenseeffectspedals355 s 48000 n 2
+D l 5:02.000 i 132k j "mime:image/jpeg offset:321 length:14342"
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Woodwinds).mp3" 3977205 0 1766562644 0
+D t "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Woodwinds)" a tenseeffectspedals355 s 48000 n 2
+D l 5:02.000 i 105k j "mime:image/jpeg offset:327 length:14342"
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO (Woodwinds).wav" 57984078 0 1766576673 0
+D s 48000 n 2 l 5:02.000 i 16
+F "MỘT VÒNG VIỆT NAM - ĐINH HIỀN ANH X ĐÔNG THIÊN ĐỨC - LYRIC VIDEO [drums].wav" 53272844 0 1766575089 0
+D s 44100 n 2 l 5:02.000 i 16
+F "QP03 0269 Thunder close clap 5.0.wav" 23823348 0 1645616103 0
+D d "Close lightning strike produces thunder clap." s 48000 n 5 r 1:00:04.578
+D l 0:32.895 i 24
+F "QP03 0301 Rain downpour 5.0.wav" 43374624 0 1645625461 0
+D d "Rain downpour spatters, natural vibrations evident." s 48000 n 5 r 1:35:26.166
+D l 1:00.049 i 24
+F TanDuong-Demo.mp4 50648358 0 1766468256 0
+D s 44100 n 2 l 3:50.504 i 1751k
+F Tạo_cảnh_hậu_chiến_với_âm_thanh.mp4 4271601 0 1766478265 0
+D s 48000 n 2 l 0:08.000 i 4259k
+F "Untitled Project.wav" 2856304 0 1766398372 0
+D s 48000 n 2 l 0:14.876 i 16
+F wind_cold_howling_haunted_night_loop2v2.wav 9949640 0 1645385454 0
+D s 96000 n 2 l 0:17.273 i 24
