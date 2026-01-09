@@ -127,6 +127,11 @@ F explosion_041_0.85.wav 30764 0 1767005186 0
 D s 16000 n 1 l 0:00.960 i 16
 F explosion_055_0.84.wav 30764 0 1767005186 0
 D s 16000 n 1 l 0:00.960 i 16
+F explosion_097_0.92.wav 30764 0 1767005186 0
+D s 16000 n 1 l 0:00.960 i 16
+F "explosion_108_0.86 reversed 001.wav" 31456 0 1767080845 0
+D y 2025-12-30 s 16000 n 1 r 1:49.672
+D l 0:00.960 i 16
 F explosion_108_0.86.wav 30764 0 1767005188 0
 D s 16000 n 1 l 0:00.960 i 16
 F explosion_200_0.85.wav 61484 0 1767005188 0
@@ -238,8 +243,12 @@ D s 16000 n 1 l 0:01.639 i 16
 F vehicle_056_0.73-glued.wav 240878 0 1767079021 0
 D y 2025-12-30 s 16000 n 1 r 1:38.895
 D l 0:07.504 i 16
+F vehicle_056_0.73.wav 76846 0 1767005186 0
+D s 16000 n 1 l 0:02.400 i 16
 F vehicle_066_0.71.wav 15404 0 1767005186 0
 D s 16000 n 1 l 0:00.480 i 16
+F vehicle_131_0.97.wav 46124 0 1767005188 0
+D s 16000 n 1 l 0:01.440 i 16
 F "Vehicles, Railway Cross, Warning Beep, Train Pass, Osaka, Japan.wav" 51722394 0 1534383673 0
 D y 2018-05-1 s 96000 n 2 r 10:33:46.240
 D l 1:29.320 i 24
