@@ -1561,8 +1561,22 @@ def RPR_GetMIDIInputName(p0,p1,p2):
   r=f(t[0],t[1],t[2])
   return (r,p0,rpr_unpacks(t[1]),p2)
 
+def RPR_GetMIDIInputNameNoAlias(p0,p1,p2):
+  a=_ft['GetMIDIInputNameNoAlias']
+  f=CFUNCTYPE(c_byte,c_int,c_char_p,c_int)(a)
+  t=(c_int(p0),rpr_packs(p1),c_int(p2))
+  r=f(t[0],t[1],t[2])
+  return (r,p0,rpr_unpacks(t[1]),p2)
+
 def RPR_GetMIDIOutputName(p0,p1,p2):
   a=_ft['GetMIDIOutputName']
+  f=CFUNCTYPE(c_byte,c_int,c_char_p,c_int)(a)
+  t=(c_int(p0),rpr_packs(p1),c_int(p2))
+  r=f(t[0],t[1],t[2])
+  return (r,p0,rpr_unpacks(t[1]),p2)
+
+def RPR_GetMIDIOutputNameNoAlias(p0,p1,p2):
+  a=_ft['GetMIDIOutputNameNoAlias']
   f=CFUNCTYPE(c_byte,c_int,c_char_p,c_int)(a)
   t=(c_int(p0),rpr_packs(p1),c_int(p2))
   r=f(t[0],t[1],t[2])

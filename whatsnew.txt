@@ -1,3 +1,764 @@
+v7.58 - January 2 2026
+  + Actions: fix undo after running action to set media item timebase
+  + Import: sort dragged-in files by directory only if user chooses to create track folders from imported files [t=305626]
+  + Import: when importing subfolders, import subfolders after parent folder media
+  + macOS: fix splash screen animation on Tahoe [t=305684]
+  + Media explorer: do not cancel peaks building when seeking with crossfade disabled
+  + Media explorer: fix inconsistent looping when crossfade enabled [p=2913349]
+  + Media explorer: improve displayed MIDI peaks note range for .mid files
+  + MIDI: fix potential bug where CCs are not drawn in arrange view in some timebases (7.53 regression) [t=305722]
+  + MIDI: fix meta-events being deleted when editing MIDI with filter enabled [t=305600]
+  + MIDI: when multi-line text event editing enabled, load text events from file as a single event, otherwise load as multiple text events to list in dropdown [t=305778]
+  + Metadata: when scheme is set to 'all', list all supported metadata
+  + Preferences: clean up layout of MIDI output device pane
+  + Render: fix potentially incorrect auto-incrementing when rendering secondary format and using a wildcard that depends on the file format
+  + Render: fix potentially incorrect auto-incrementing when rendering, immediately returning to render dialog, and rendering again
+  + Render: fix rendering when primary and secondary render format have the same filename extension [t=305683]
+  + Render: support parallel rendering even if rendered areas do not exactly overlap in time, as long as routing permits [p=2912109]
+  + Section/reverse items: fix various minor issues and API issues relating to filenames
+
+v7.57 - December 23 2025
+  + Big clock plus: fix $markerpos/$regionpos when project start measure is customized [p=2910354]
+  + Default theme: updated theme/script version number
+  + Envelopes: allow editing track volume/pan/width text fields when in automation read mode, if there is not an active envelope overriding that specific field [t=305362]
+  + FX: fix channel count negotiation after loading default preset [t=305524]
+  + Import: fix folder track generation with media in subfolders with common names
+  + Import: preserve original file order when importing multiple files at once via drag/drop [t=305626]
+  + Media explorer: add rewind/home button
+  + Media explorer: fix playback rate adjustment for MIDI preview
+  + Media explorer: fix tempo-matching and playback rate adjustment for REX preview
+  + Media explorer: minimize seeking when adjusting playback rate while previewing
+  + Media explorer: pressing play while media is already playing restarts preview from most recent start point
+  + Media explorer: support double/half tempo-matching for MIDI
+  + Media items: fix unnecessary warning message when setting media item properties and 'auto-stretch at tempo changes' is enabled [t=305492]
+  + MIDI: preserve newlines and other non-printable characters in text events
+  + MIDI: support adding and editing multi-line text events
+  + Mouse modifiers: fix potential crash when attempting to create a fixed lane comp area below the last track in the project [t=305508]
+  + Pinned tracks: improve vertical zoom behavior when mouse is over pinned tracks [t=305413]
+  + ReaScript: document P_EXT:ORIGINAL_FILENAME for GetSetMediaItemTakeInfo_String, etc
+  + Render: fix embedding loudness metadata consistently
+  + Render: fix possible blank areas in render when rendering or freezing multiple overlapping sections (7.37 regression) [t=305528]
+  + Render: fix potentially incorrect file auto-incrementing when rendering multiple file formats and rendering stereo/multichannel to separate mono files
+  + Render: fix rendering stereo/multichannel to separate mono files being applied when enabled but all postprocessing is also disabled
+  + Render: fix potential crash when using malformed auto-increment suffix
+  + Render: if user-entered render filename matches auto-increment pattern before resolving wildcards, start auto-incrementing from the user-entered number
+  + Render: improve responsiveness when auto-incrementing many filenames at once
+  + Render: respect setting to not embed metadata when rendering
+  + Render: when rendering multiple files, ensure that if any file names collide, all of them get auto-incremented [p=2910515]
+  + Spectrogram: fix actions to adjust brightness/contrast when used while peaks display settings window is not visible
+  + Tempo envelope: respect tempo envelope beats timebase when pasting envelope points [t=302495]
+  + Web interface: fix issue where keepalive connections would always remain active [t=305384]
+  + Web interface: improve behavior when creating a new surface, pressing Apply, then pressing OK
+  + Web interface: display connection/request statistics in configuration window
+  + Windows: fix UTF-8 text in render statistics listview display [t=305428]
+  + Windows: improve ctrl+backspace/ctrl+delete behavior in various edit fields
+  + Windows: support triple-click to select all in edit fields
+
+v7.56 - December 13 2025
+  + Actions menu: if multiple key/MIDI bindings are mapped to recent actions, show all bindings in menu item
+  + Appearance: do not draw new (7.55+) media item left edge overlay if media item is only a few pixels wide [p=2909373]
+  + Audio Units: prevent dropping of MIDI messages in certain instances
+  + Auto-increment: support separate preferences for 'save new version of project' suffix and 'auto-increment filename' suffix
+  + Auto-increment: set default filename suffix to '-001' (revert to pre-7.45 behavior), keep 'save new version of project' suffix as '_001'
+  + Auto-increment: add preference to ensure file number comes after all existing similarly named files in the directory [t=303372]
+  + Auto-increment: add preference to treat _ (underscore) and - (hyphen) as interchangeable when auto-incrementing filenames
+  + Auto-increment: allow space characters in auto-increment suffix (for example, ' 001')
+  + Batch converter: fix converting only selected files when unselected, unconverted files exist
+  + Batch converter: ignore $chid wildcard when not imploding/exploding
+  + Batch converter: support sorting file list
+  + Click source: support following project tempo / time signature while customizing click pattern
+  + Click source: support setting to half speed
+  + Command line: fix command line render occasionally canceling itself [t=305336]
+  + Debug console: use fixed width font for debug console
+  + Filtering: fix case matching for various non-ASCII characters that do not fold to ASCII
+  + Glue: fix glue when preference set to create new MIDI as .mid files (7.46 regression) [t=305318]
+  + Joysticks: actions/buttons to reinitialize MIDI devices also re-open joystick devices
+  + Joysticks: opening configuration from device that failed to open will try to re-open the device if found
+  + JSFX: avoid file_open(xml) trying to open files as MusicXML
+  + macOS: allow plug-ins to request access to system cameras
+  + macOS: improve display/handling of truncated UTF-8 strings [t=303957]
+  + Media explorer: don't cancel incomplete peaks preview build when seeking with crossfade enabled [p=2908243]
+  + Media import: set take extension attribute ORIGINAL_FILENAME when media is copied to project path on import [t=285404]
+  + Media import: if media contains unambiguous tempo information in cue/marker metadata, use it when tempo-matching
+  + Media item properties: support displaying and editing take section source start and length in time, beats, samples, or frames
+  + Metronome: support setting to half speed
+  + MIDI: avoid potential dropped notes at end of MIDI items
+  + MIDI editor: add option in View menu to disable displaying note names on piano roll keys [t=305081]
+  + Parameter modulation: increase precision of configuration display [t=305101]
+  + ReaScript: clarify documentation for gfx_measurechar() [t=305316]
+  + ReaScript: fix GetMediaSourceFileName() for section/reverse sources [t=305264]
+  + Render: add render peaks display option to show file length in samples
+  + Render: add render setting to enable/disable parallel postprocessing
+  + Render: support rendering stereo and/or multichannel to per-channel mono files, via postprocessing dialog
+  + Render: disable 2nd pass render option when normalizing video render
+  + Render: fix auto-incrementing filename when rendering to both primary and secondary formats [t=304162]
+  + Render: fix possible 1-sample file length discrepancy when rendering media items on multiple tracks [p=2893420]
+  + Render: fix rendered file length discrepancies that can occur in certain circumstances [t=303315]
+  + Render: fix rendered file length when processing at project sample rate, resampling to final sample rate, and rendering multiple project regions (7.37 regression)
+  + Render: if not postprocessing, finalize rendered files for each timeline range before rendering the next timeline range
+  + Render: ignore saved project setting to bring FX online after load when rendering from the command line
+  + Render: improve render speed when rendering many files and using FX that introduce latency [t=305119]
+  + Render: improve render speed when rendering many very short files [t=305119]
+  + Render: update render statistics more efficiently during render
+  + Render: internal changes to filename handling and metadata
+  + Render: limit display of rendered file list dropdown to about 100 files
+  + Render: properly flush synth plug-ins when normalizing video render
+  + Render: resolve wildcards like $item, $itemnotes even when not rendering selected items, by finding the media item within the render that best matches the rendered time range
+  + Ripple: import media preference 'insert empty space when ripple is enabled' also affects pasting media (when disabled, existing media that starts to the left of the import position is unaffected) [p=2905706]
+  + Ruler: add support for minutes:seconds (minimal) display format
+  + Ruler: fix performance issues/hangs at nonsensically-high measure offsets
+  + Ruler: make label interval and tick mark spacing consistent when ruler display format is set to either time or frames
+  + Section source: avoid drift when looping sections that are not a whole number of samples (5.20 regression)
+  + Shutdown: optimize unloading FX at exit
+  + Tempo markers: fix editing tempo when tempo change position is in beats and previous tempo marker is set to gradually transition tempo [t=304932]
+  + Track panels: add new infoblock control to display contextual track information (optional, enable via Theme Adjuster script)
+  + Track panels: click infoblock area to enable/disable displaying various contextual information
+  + Track panels: infoblock implemented via tcp_infoblock images, fallback text is used if tcp_infoblock is not found
+  + Wildcards: support $chid (channel ID), for use when rendering stereo/multichannel to mono files, ignored otherwise
+  + Wildcards: support $chid{N}(...) to name channels when exploding N-channel file, ignore for other channel counts [p=2892788]
+  + Wildcards: support $projectnotes and $projectnotes(key) to display specific lines from project notes, see wildcard help for more information
+  + Windows: fix tooltip UTF-8 display errors when long strings are truncated
+  + Windows: improve display/handling of truncated UTF-8 strings for display and accessibility [t=303957]
+  + WMF: improve support for high unicode code points in filenames
+  + Worker threads: optimize thread cleanup process
+  + Zoom: when maximum project length is set, decrease horizontal zoom-out limit
+
+v7.55 - November 27 2025
+  + API: add Register("atexit") support to work around change to quit process for extensions
+  + API: fix crash when GetTrackMIDINoteNameEx() is called with null project pointer (7.53 regression)
+  + Audio Units: improve support for multiple types of plug-ins with the same name
+  + Audio Units: support AUv3 MIDI output, MIDI processors [t=300840]
+  + Audio Units: fix inconsistent FX names when inserting via project bay
+  + Big clock: support 'time' and 'beats' as shorthand time formats for wildcards like $projectpos(format)
+  + Big clock: support $regionpos and $markerpos wildcards (time within current region, time since last marker)
+  + Import: ensure peaks are built for items imported from directory, even if the directory is collapsed [p=2906324]
+  + Import: do not include filename in take name if media has title information (like MIDI title text event)
+  + Import: fix possibly incorrect folder structure when importing directory containing multitrack MIDI [p=2906324]
+  + Import: when importing multiple files and one is MIDI with tempo map, ensure all files are imported at the correct position
+  + Localization: fix localization support for metadata format explanation strings that begin with numbers (3-letter, 24 comma, etc)
+  + Linux: fix potential hang/crash related to menus (7.54 regression) [t=304895]
+  + Linux: fix calling xdg-open from paths other than /usr/bin [p=2808822]
+  + Media items: add theme color for left edge of item overlay
+  + MIDI editor: update piano keys for note names when switching channels [t=304897]
+  + Notation editor: extend media item to start/end of measure only if the current edit is outside the media item bounds
+  + Notation editor: improve targeting of media items that are less than one measure long [t=304879]
+  + Preferences: fix UTF-8 support on Windows for control surfaces list
+  + Project bay: fix potentially incorrect FX path display when multiple similarly-named FX exist
+  + Region/marker manager: allow changing region/marker index to 0
+  + Tempo/time signature envelope: fix persistence of 'allow partial measure before this marker' flag [t=304941]
+  + Theme tweaker: improve column alignment
+  + VST: obey track grouping when plug-ins (e.g. Console1) use Presonus::ContextInfo::kVolume/kPan
+  + Wildcards: support $itemnotes(name) [t=289489]
+
+v7.54 - November 20 2025
+  + Actions: add action to delete all track FX on selected tracks
+  + Actions: fix undo following new cycle visible envelope actions added in 7.47
+  + Actions: fix various actions that calculate project media length on background projects
+  + AES-31 import: fix applying source offset to media
+  + AES-31 import: consolidate matched mono channels to stereo tracks
+  + AES-31 import: fix pan direction
+  + AES-31 import: fix pre-FX/post-FX pan
+  + AES-31 import: import matched L/R channels with differing pan automation as dual pan
+  + AES-31 import: remove redundant automation points
+  + AES-31 import: when re-linking media, retain resolved file locations rather than prompting for every file
+  + AES-31 import: set automation visible/active
+  + Apply FX / Render as new take / Glue: improve status display when processing multiple items
+  + Automation items: fix behavior when using timebase beats (position only), project setting to affect automation item length is disabled, and razor editing [p=2903688]
+  + Big clock: support $parentpos wildcard, to display parent project time for subprojects if unambiguous
+  + Envelopes: fix actions to reduce number of envelope points when all points are redundant
+  + Fades: fix LPF fade when 'all takes play' is enabled [t=304650]
+  + Fixed lanes: add action to play only most recently playing lane (for A/B comparison)
+  + Fixed lanes: when re-enabling fixed lanes, ensure lane play state is consistent with lane collapsed state [p=2904127]
+  + FX: when bringing FX online via timer, also bring input FX online [t=304696]
+  + FX: when opening project in new tab (including opening subprojects), handle saved project setting to bring FX online after project load
+  + FX: when opening project via command line, handle saved project setting to bring FX online after project load
+  + FX: when rendering queued project or rendering subproject proxy file, ignore saved project setting to bring FX online after project load
+  + JSFX: fix default values for file-based sliders [t=304669]
+  + JSFX: increase size of I/O button slightly [t=304645]
+  + Linux: support copy/paste of items/tracks/etc across REAPER instances [t=304309]
+  + Localization: improve sizing of various controls in render window
+  + macOS: allow plug-ins to request access to Speech framework for speech recognition [t=304171]
+  + macOS: improve splash screen topmost behavior, lower when switching to other applications during project load, etc
+  + Media explorer: fix peaks building when switching rapidly between files with crossfade enabled [t=304822]
+  + Media item fades: fix potentially incorrect fade-in/fade-out when applied to media with an odd number of channels [t=304646]
+  + Modal windows: fix modal window positioning preference for Insert Multiple Tracks and Tempo Matching Prompt windows
+  + Mouse modifiers: fix redundant menu entries in media item edge mouse modifiers
+  + Mouse modifiers: improve default tooltip description for arrange view D actions
+  + Mouse modifiers: improve apply button behavior in preferences
+  + Peaks: ensure peaks are built after unfreezing
+  + Peaks: ensure peaks are built after pasting items as new takes
+  + Project load: do not run FX-related timers/etc until load has completed
+  + Project unload: add option to unload projects in background on exit (7.52 and earlier behavior)
+  + Project unload: prevent UI updates while closing project
+  + ReaFIR: fix save/restore of multi-mono mode [t=304634]
+  + ReaScript: add GetMediaTrackInfo_Value('I_TCPSCREENY'/'I_MCPSCREENX'), to get location of track/mixer control panel relative to physical screen
+  + Render: if no directory is displayed in the render dialog directory field, browsing for directory initializes with the directory that would be rendered to by default, rather than the most recently used directory
+  + Subprojects: if the active project is a subproject, support displaying parent project time as secondary ruler and/or transport time unit
+  + Spectral edits: clamp defaults to reasonable values [p=2902912]
+  + Splash: change 'Removing track' message to 'Unloading track' for clarity
+  + Splash: display graphical progress meter when loading project
+  + Splash: improve text alignment with long text on second line
+  + Splash: shorten displayed plug-in names when loading project
+  + Windows: fix UTF-8 character support on some media item properties window fields [t=304038]
+
+v7.53 - November 11 2025
+  + Actions: add action to bring all project FX online one at a time
+  + Actions: fix extra MIDI events possibly being added at end of item when applying track FX as new take with MIDI output
+  + Actions: add action to open 'choose project' prompt (allows opening multiple projects at once)
+  + Actions: add actions to set all project take fx online or offline based on whether the take is active or not
+  + Actions: show splash screen when closing projects via action
+  + API: add StartPreviewFade(), to immediately fade preview audio in or out
+  + Auto-crossfades: fix manually edited crossfades being reset when deleting unrelated media items [t=304510]
+  + Automation items: add project setting to choose whether 'Beats (position only)' timebase changes length of automation items (on by default, matching behavior of 7.49 and earlier)
+  + Automation items: fix start offset when changing effective timebase
+  + Color theme: add theme elements for LPF fade color and blend mode
+  + Control surfaces: add Console1 support
+  + Debug: add project load time report, accessible via 'projload_report' in debug console
+  + Default theme: update send level meter images slightly
+  + Fades: clear LPF fade, reset fade curvature when performing various editing actions [t=304275]
+  + Fades: improve behavior of 'move crossfade' mouse modifier when editing non-crossfade [t=304426]
+  + FX: add preference to control whether pin mappings are loaded when loading FX presets [t=287808]
+  + Import: add action to insert all media items in directory
+  + Import: add setting and preference to create folder tracks for imported directories
+  + Import: recursively import files from subdirectories when dragging a directory into REAPER
+  + Import: warn/verify when importing more than 1000 files at once
+  + Import: ignore .txt files when drag/dropped into arrange view with other media
+  + JSFX: fix showing JSFX pathname when inserting via action/script on Windows [t=304344]
+  + Media explorer: set default fade-in/fade-out to 20ms
+  + Media explorer: support either fade-in or fade-out (or both/neither) for preview audio (replaces option to crossfade)
+  + Media import: don't prompt to match empty project tempo to media if the project tempo is already set to the media tempo
+  + Media import: simplify tempo-match preferences
+  + MIDI editor: add option to draw CCs as gray
+  + MIDI editor: add option to hide CCs in secondary contexts
+  + MIDI editor: add preference for opacity of secondary editable contexts, extend opacity configuration range for inactive items
+  + MIDI editor: show note names from tracks that MIDI is routed to, if any
+  + Mouse modifiers: add ripple options for edge edits (only affects editing right edges)
+  + Mouse modifiers: modifier to adjust item edge without changing fade only applies to pre-existing fades [t=304351]
+  + Paths: increase maximum length of VST/LV2/CLAP plug-in path lists to 64k
+  + Peaks: draw first sample of peaks over left border of containing media item
+  + Peaks: fix errors where the first sample of media file may get skipped (7.39 regression) [t=304010]
+  + Portable installs: fix issue in new 7.50 feature where VSTs would be rescanned even if skip requested by user
+  + Project backups: add option to auto-save unsaved projects, will also save at exit and be available (if configured) when re-launching REAPER
+  + Project bay: properly handle dragging items into 'add new track' area of project
+  + Project bay: support creating folder tracks from project bay folders
+  + Project load: add checkbox to load project with FX offline, then bring FX online one at a time
+  + Project load: add FX offline/online options to import RPP dialog
+  + Project load: display loading progress in splash screen
+  + Project load: improve loading speed of projects that have many per-take FX
+  + Project settings: add project setting (advanced tab) to always load project with FX offline, or bring FX online one at a time
+  + Render: fix brickwall limiting to master mix when also rendering master mix and normalizing to master mix [t=304595]
+  + REX: fix potential error when importing as beat slices and source tempo is lower than project tempo [t=304388]
+  + REX: when importing as beat slices from media explorer with time selection set, import slices if they start within the time selection, and do not truncate the end of the slices
+  + Searching/filtering: better handle case folding of UTF-8 codepoints up to U+800 [t=302713]
+  + Searching/filtering: improve synonym case folding support for localized synonyms
+  + Shutdown: improve shutdown process (display splash screen while unloading project), better compatibility with some plug-ins/control surfaces
+  + Spectral edits: add actions to bypass/solo/delete selected spectral edits, reset/adjust gain of edit
+  + Spectral edits: add new preferences page to configure defaults for new spectral edits
+  + Spectral edits: control+clicking an edit allows multi-selection of edits
+  + Spectral edits: faster drawing updates when modifying edits
+  + Spectral edits: improve selection behavior, deselect spectral edits in other items when selecting, etc
+  + Spectrogram: add high resolution spectrogram view (when sufficiently zoomed-in, zoom threshold is configurable in preferences)
+  + Spectrogram: add mousewheel/MIDI CC/OSC assignable actions to adjust brightness/contrast/curve/frequency curve
+  + Spectrogram: fix slightly-incorrect display (skipping one very high frequency bin)
+  + Toolbars: prevent overly-large images from resizing toolbar editor too large
+  + Toolbars: allow larger toolbar images (7.50 change partially reverted) [t=304328]
+  + Undo: allow longer undo messages [t=303957]
+  + Undo: support longer track names/etc for FX, envelope context messages
+
+v7.52 - October 31 2025
+  + Fixed lanes: fix comping in certain situations (7.50 regression) [t=304341]
+  + Media explorer: do not override tempo-matched item timebase on import in some cases
+  + Mouse position indicator: do not display when main window is not focused
+  + Preferences/Paths: add user-configurable list of paths to exclude when copying/moving media files (on import and/or via save-as with copy)
+  + Preferences/Paths: improve UI for configuration of alternate-peaks path list, allowing longer list of paths
+
+v7.51 - October 30 2025
+  + LV2: fix incorrect handling of default system paths (7.50 regression) [t=304333]
+
+v7.50 - October 30 2025
+  + Actions: improve descriptions of 'trim/move edge of item' actions for clarity
+  + Automation items: adjust rate as needed when track or project timebase changes
+  + Automation items: improve support for 'beats (position only)' timebase
+  + Batch converter: fix postprocessing button staying disabled after converting with postprocessing disabled [t=304292]
+  + Batch converter: support RMS normalization from command line [t=304174]
+  + Crossfade editor: fix possible crash when editing multichannel media, 'mono peaks' disabled, 'apply fades to combined peaks' enabled [t=304172]
+  + Default theme: minor track panel tweaks relating to pinning/fxlist margins/etc
+  + Envelope panel: improve double-click behavior on buttons/controls
+  + Fixed lanes: improve performance when comp areas contain many media items [t=304237]
+  + Fixed lanes: improve project save time when many comp areas exist
+  + FX browser: a change in VST path does not change folder membership [t=291316]
+  + FX parameter modulation: fix behavior with parameters that report non-normalized values to host (mostly CLAP) [p=2899700]
+  + Localization: fix Windows UTF-8 issue in phase alignment window combo box
+  + Localization: make localization of some crossfade editor text consistent (move [xfadedit]/[xfadedit] translations to [xfade] section)
+  + Localization: fix MIDI editor selection of triplet/etc with localized names
+  + MIDI: preserve notation events through sends with channel filters or remapping [p=2888113]
+  + Portable: when running a portable install for the first time, prompt user whether to scan system VST/CLAP/LV2 paths
+  + Preferences: add action (under 'Recent project list display' button on Preferences > General) to remove missing projects from recent project list
+  + Project tabs: correctly save active project tab when exiting with some tabs unsaved
+  + ReaScript: fix EEL2 passing constant strings to various GetSet APIs in 'set' mode
+  + ReaScript: GetSetEnvelopeInfo_String marks envelope as dirty for undo [t=303814]
+  + Region manager: support 'current' column for take markers
+  + Toolbars: enforce a reasonable maximum size for toolbar images/toolbar editor [t=304196]
+  + Undo: preserve item selection on undo/redo when configured to not create item selection undo points [t=304184]
+  + Undo: update envelope control panel on undo/redo of arm/bypass/etc state
+  + Undo: when loading undo history, always ensure that undo state is up to date on project load
+  + WALTER: fix tcp.fxlist.margin alignment field [p=2899267]
+
+v7.49 - October 24 2025
+  + Actions: improve behavior when moving items up one track and first track selected (7.46 regression)
+  + Actions: add actions to toggle track zoom to minimum or default height, ignoring pinned tracks
+  + Actions: actions to move to zero crossing ignore non-audio items
+  + Actions: fix behavior when duplicating locked items via action
+  + Auto-stretch at tempo changes: fix editing edge of auto-stretched item if the item did not previously span any tempo changes
+  + Auto-stretch at tempo changes: ignore auto-stretch timebase for auto-synced click source items
+  + Batch converter: report to user if convert-in-place failed to replace original file, support trying again [t=303947]
+  + Color theme: change fallback color (if theme does not provide a color) for divider between pinned and unpinned tracks
+  + Crossfade editor / Phase aligner: allow automatic correlation calculations to take more time, to reduce CPU usage
+  + Crossfade editor: support previewing in bounds audio only, out of bounds audio only, top lane only, bottom lane only
+  + Crossfade editor: add option to allow hand-scroll on ruler (no auto-center or recenter)
+  + Crossfade editor: add setting to allow left and right items to be on different tracks or lanes
+  + Crossfade editor: fix interaction with arrange view edits when auto-crossfade is enabled
+  + Crossfade editor: if auto-center is disabled, support preference to center horizontal zoom on mouse cursor
+  + Crossfade editor: improve accessibility
+  + Crossfade editor: support mouse-editing pre-roll and post-roll directly
+  + Crossfade editor: support scrubbing audio
+  + Envelope manager: remove extra container-related items from FX parameter context menus
+  + FX: add option in Preferences/Plug-ins to not prompt to create routing for newly inserted multichannel instruments
+  + FX: allow alias/rename of Wet/Bypass/Delta parameters [t=288840]
+  + FX: improve loading speed of projects that have many per-take FX
+  + Linux: fix big clock region/marker display issues [t=303871]
+  + Localization: support localizing Peak/-inf in loudness tooltip
+  + Loudness tooltip: fix incorrect LUFS display on multichannel files
+  + Loudness tooltip: improve behavior when using spectral edits
+  + macOS: work around OS bug where some audio device names could be truncated on Big Sur
+  + Metronome: set project metronome pattern when adding/editing time signature marker that changes metronome patterns at project start
+  + MIDI: fix possibly incorrect media item fades applied to overlapping and/or all-takes-play media items [t=303991]
+  + MIDI: improve responsiveness when importing massive tempo map
+  + Normalization: disable setting to adjust mono media -3dB when normalizing to peak or true peak (the setting was ignored in those cases anyway)
+  + Normalization: respect preference to adjust mono media -3dB when normalizing stereo/multichannel media that is playing back only one channel [t=303454]
+  + Peaks: fix potential enhanced peak drawing error
+  + Pitch envelope: render pitch envelope consistently regardless of buffer size [t=303892]
+  + Preferences: fix positioning of mouse modifiers checkbox when dialog is resized
+  + Preferences: move automatic take and pooled-MIDI item coloring options from Appearance/Peaks to Appearance/Media Items
+  + ReaScript: add support for GetSetProjectInfo_String("RENDER_EXTRAFILEDIR") [t=304073]
+  + ReaScript: SetEnvelopePointEx/InsertEnvelopePointEx do not try to update UI if nosort is set
+  + Region/marker manager: add Current column, to display where the play/edit cursor currently is
+  + Region/marker manager: list regions before markers by default
+  + Region move: fix MIDI start offset after moving region with contents [p=2896338]
+  + Render: fix auto-incrementing filename when rendering to both primary and secondary formats [t=304162]
+  + Render: fix incorrect rendered output when using 'normalize to loudest file' and rendering multiple timeline regions at once (7.42 regression) [t=303988]
+  + Render: fix possible glitch in online render when canceling render, seeking playback, and immediately restarting render [t=303640]
+  + Render: improve various checkbox accessibility labels
+  + Render: prevent normalizing or limiting to full master mix when rendering tracks or media items via master [t=303946]
+  + REX: fix imported items not looping correctly when project tempo changes have many significant digits of precision
+  + Spectrogram: fix incorrect display of multichannel recording items
+  + Take envelopes: option to move or not move take envelopes when moving media item contents only affects slip editing (always adjust take envelopes when splitting, edge editing, etc) [t=303852]
+  + Tempo envelope: when inserting or editing tempo change point at time zero, adjust tempo and/or time signature in project settings to match inserted point
+  + Track panels: fix renaming of first track visible in TCP (7.46 regression) [t=304003]
+  + Track panels: add context menu item in empty TCP area to customize empty TCP area toolbar [p=2896776]
+  + Track panels: fix meters occasionally not updating on pinned tracks [t=303870]
+  + Track panels: fix dragging track below the last visible track when the last track is a collapsed folder track [t=303868]
+  + Track manager: fix arrange view vertical scroll behavior after changing track filter [t=303830]
+  + Wildcards: fix behavior of wildcard help dialog when opened from Consolidate or Bounce dialogs [t=303811]
+  + Windows: reduce excessive tooltip flicker
+  + Windows: use modern dialog when browsing for folders on Windows 7 and later
+
+v7.48 - October 6 2025
+  + Actions: restore 7.45 behavior of actions to go to previous/next track (stop when first/last track is reached, rather than cycling through)
+  + Actions: improve handling of first track selected with 'Move tracks up'
+  + Actions: improve handling of selected folder with 'Move tracks down'
+  + Auto-stretch at tempo changes: improve predictability when using non-square tempo envelope points
+  + Automation: saved latch states are now stored in the project file
+  + Automation: add actions to save/load/clear 64 latch presets for envelopes on all or selected tracks
+  + Automation: add option to not automatically reset latches in write/latch modes [t=302661]
+  + Automation: always set latches for active envelopes when in write mode
+  + Batch converter: fix applying trailing silence trim
+  + Batch converter: fix opening long paths in explorer/finder
+  + Batch converter: properly apply leading trim when the first sample of the file is over the threshold
+  + Batch converter: support applying fades outside of trimmed content
+  + Batch converter: support Low Pass Fades (low pass filter opens as volume fades in, closes as volume fades out)
+  + Big clock: add wildcards for selected media item name/notes, position, length (blank if no selected items, or multiple selected items)
+  + CLAP: by default, do not delay automation by PDC amount (configurable via right-click of I/O button)
+  + CLAP: treat plug-ins that do not support the audio port extension as MIDI-only [t=303348]
+  + Envelopes: fix behavior when removing time from project and a square envelope point is at the start of the removed time [t=302457]
+  + Envelopes: when using mouse modifier to delete envelope point, dragging with mouse down will continue to delete envelope points
+  + Fades: support Low Pass Fades (low pass filter opens as volume fades in, closes as volume fades out)
+  + Fades: display Low Pass Fade as a double line in arrange view
+  + Fades: restore crossfade menu order from pre-7.40 (equal power fade listed 2nd rather than last)
+  + Fixed lanes: actions to insert new MIDI item, empty item, click source, timecode item, etc target the last clicked lane [t=303679]
+  + Fixed lanes: update active lane cursor when clicking lane play buttons
+  + Fixed lanes: actions to insert retroactively recorded MIDI respect active lane
+  + FX: rename VST/CLAP plug-in option (in I/O button right-click menu) 'Adjust automation' to 'Delay automation' for clarity
+  + Item groups: add setting/action to display item group colors/names in arrange view instead of media item colors/names
+  + JSFX: fix opening external editors for FX with filenames that contain spaces [t=303246]
+  + Localization: optimize CPU use when using language packs
+  + macOS: fix joystick support while MIDI learn/assign windows are open
+  + Media explorer: fix playback rate after clearing time selection with escape key
+  + Mouse modifiers: fix cursor not targeting empty fixed lane with certain combinations of custom mouse modifiers [t=303669]
+  + Mouse modifiers: obey seek preferences when left-drag is mapped to marquee/etc (7.46/7.47 regressions) [p=2894325]
+  + Nudge: ignore snap when nudging contents
+  + Nudge: improve behavior when nudging contents by beats with tempo changes
+  + Project bay: remove support for displaying little used old-style named take comps
+  + ReaScript: fix opening external editors for very long script names
+  + Render: add render peaks display option to show file length in samples
+  + Render: display basic histogram of short-term loudness in HTML render statistics chart
+  + Render: fix garbage output when rendering stems to a higher number of channels than the track channel count (7.37 regression)
+  + Render: fix possible 1-sample file length discrepancy when rendering media items on multiple tracks [p=2893420]
+  + Render: handle trimming leading silence when the first rendered sample is over the threshold
+  + Render: improve tooltip on HTML render statistics chart (smaller, highlights which channel/polarity has the highest peak)
+  + Render: support Low Pass Fades (low pass filter opens as volume fades in, closes as volume fades out)
+  + Render: when both trimming and fading in render postprocessing, support applying fades either inside or outside the trimmed content [t=302662]
+  + Render: support saving render presets with empty output directory [t=303314]
+  + Screensets: include master TCP in track view screensets
+  + Screensets: include TCP pinning state in track view screensets
+  + Screensets: include visual spacer in track view screensets
+  + Stretch markers: allow AltGr+click to remove stretch markers on Windows [p=2893806]
+  + TCP toolbar: fix left-click behavior when clicking in empty area next to toolbar buttons
+  + TCP toolbar: fix right-click menu positioning
+  + Toolbars: add action to customize empty TCP area toolbar
+  + Toolbars: add right-click menu for 'add track' toolbar button
+  + Track pinning: actions to toggle track height to minimum or default size affect pinned tracks
+  + Track pinning: disable track spacer menu items for pinned tracks
+  + Track pinning: more predictable vertical zoom
+  + VST: add support for wide layouts (k90_4_W, k91_4_W, k90_6_W, and k91_6_W)
+  + VST: when setting volume/pan via IContextInfoProvider3 interface, add undo point after edit
+  + VST: by default, third-party plug-ins do not delay automation by PDC amount (right-click I/O button to configure)
+  + Windows: fix opening various paths in explorer when a file/directory similar name with .exe extension exists next to the path [t=303649]
+
+v7.47 - September 26 2025
+  + Accessibility: improve accessibility labels for ReaVerb IR generator fields
+  + Envelopes: add actions to hide active envelope, show previous/next envelope on the same track (cycle through envelopes)
+  + Help: fix click/action mappings in generated html mouse map/keyboard binding document [t=299870]
+  + Localization: fix drawing of wet/dry knob UTF-8 text
+  + Localization: allow localization of various accessibility labels in ReaPlugs
+  + macOS: remove problematic option to partially-disable retina drawing for classic themes [t=303437]
+  + macOS: improve mixer drawing performance when using Metal, retina displays, and visual spacers
+  + Metadata: fix embedding BWF loudness metadata with certain settings [p=2891864]
+  + Metadata: fix embedding BWF loudness metadata when file is silent
+  + MIDI editor: fix actions to edit notes by grid [t=302994]
+  + MIDI editor: actions that adjust event value/position based on midi CC/wheel obey MIDI event filter [t=302723]
+  + MIDI editor: insert note at mouse cursor action will allow extending non-looped items [t=303324]
+  + MIDI editor: when opening editor, ensure the clicked-on media item is visible in the arrange view [t=303296]
+  + Mouse modifiers: fix default razor edit cursor (7.46 regression) [p=2893557]
+  + Mouse modifiers: fix seeking when clicking in empty areas and left-drag is mapped to marquee/marquee zoom/razor edit selection/etc (7.46 regression)
+  + Mouse modifiers: shift/control + right click no longer shows context menu, restoring 7.45 behavior [t=303397]
+  + Notation editor: fix horizontal zoom when MIDI timebase is set to time and editor is wide [t=303336]
+  + Parallel FX: fix certain instances where some VST3 can result in untouched channels being zeroed out [t=303311]
+  + PDC auto-bypass: fix support for MIDI overdub/replace modes [t=303404]
+  + PDC auto-bypass: add option to only auto-bypass PDC FX while recording (useful but causes glitches when punching in/out)
+  + ReaScript: allow adding spectral edit frequency points with very close timing values
+  + Render: display true peak in render statistics if setting is enabled to display it, or if normalizing or brickwall limiting to true peak, not if calculating true peak only for the purpose of embedding loudness metadata
+  + Render: fix description of pad vs fade order in postprocessing help
+  + Render: fix tiny rendered file length discrepancies that can occur in certain circumstances [t=303315]
+  + Render: improve preview playback of recently-rendered items, avoiding possibly dropping samples at preview start [t=303386]
+  + Render: support save/load of RPP with render trim threshold set under -100dB
+  + Render: when rendering to mp3 and brickwall limiting, display final statistics for the pre-encoded signal [t=302749]
+  + Screensets: fix updating display when loading track view screensets [p=2892617]
+  + Solo bus: fix solo bus when trivial tracks are soloed [t=303344]
+  + Solo bus: fix incorrect audio output after disabling solo bus while a track is soloed
+  + Solo bus: add option to ignore solo on child tracks when the parent track is soloed [t=303393]
+  + Spectral peaks: fix incorrect display with certain channel modes [t=303398]
+  + Takes: action and mouse modifier to select take from take list affects grouped items [t=303389]
+  + Track renaming: improve auto-scroll behavior (7.46 regression) [t=303367]
+  + Vertical zoom: keep top of zoom-centered track visible when tracks are pinned, if possible [p=2892964]
+  + Visual spacers: fix hit testing of visual spacers in certain instances
+
+v7.46 - September 18 2025
+  + Actions: add actions to move tracks up/down, similar to drag/dropping to position above/below selected tracks
+  + Actions: fix behavior of 'crop project to selection' with razor edits and fixed lane comp areas
+  + Batch converter: copying current settings to clipboard for command line use will list literal output filenames if possible
+  + Batch converter: fix window title
+  + Batch converter: support and document exploding stereo/multichannel to separate mono files when running from command line
+  + Batch converter: when run from command line, fix converting filenames with space in path (7.29 regression) [t=298659]
+  + CLAP: fix window destruction flow to be more compatible with iPlug2 GL plug-ins
+  + CLAP: notify plug-ins when window DPI changes
+  + CLAP: validate sizing using adjust_size if supported when creating UI
+  + Consolidate: fix re-importing to project after consolidating MIDI to .mid files [t=303114]
+  + Custom menus: improve behavior when menus have been customized and switching languages (store English names in reaper-menu.ini, requires load/save of menus with language pack loaded to convert to English)[t=302814]
+  + Custom menus: improve handling of menu titles and localization (do not save menu titles if they equal the current localized default) [t=302814]
+  + Envelopes: add menu items to set envelope segment shape when right-clicking between envelope points (equivalent to setting the previous point shape)
+  + Envelopes: fix selecting all envelope points when automation items exist [p=2875000]
+  + Envelopes: improve click-deselection logic, improve behavior when using left click marquee on envelopes in media lane [p=2874486]
+  + Images: support reading CMYK .jpg files (though perhaps with not ideal colors) [p=2885432]
+  + Import: support dragging folders into project (will import all media files within the directory without recursing)
+  + Marquee selection/razor edits: smoother auto-scroll when dragging past the edge of the arrange view
+  + Marquee selection: improve behavior when envelope in item lane is active and marquee does not intersect its points
+  + Managers: improve focus behavior after editing name field in track/region/group managers on macOS [t=303243]
+  + Managers: preserve column order/width in track/region managers when switching between REAPER versions going forward (existing customizations may be reset when running 7.46 for the first time)
+  + MIDI editor: improve auto-scroll behaviors
+  + Mouse modifiers: auto-scroll MIDI editor when dragging in mouse modifier contexts that are set to 'no action'
+  + Mouse modifiers: add contexts for fader, tcp fader, mcp fader
+  + Mouse modifiers: add contexts for Track Control Panel, Mixer Control Panel mouse wheel and horizontal wheel
+  + Mouse modifiers: add flags to not change selection and/or move edit cursor when using actions in various click contexts
+  + Mouse modifiers: always allow recently-created copies of CC events to cross other events when using copy CC mouse modifier [t=270899]
+  + Mouse modifiers: add edit cursor handle support for 'No action' and new 'Move cursor (no scrub)' mode
+  + Mouse modifiers: better handling of clicking out of bounds in MIDI editor when click is mapped to insert note
+  + Mouse modifiers: fix click-selects-track when drag is mapped to time selection, etc
+  + Mouse modifiers: fix context menus when right-drag set to time selection or scrub/jog [t=234628]
+  + Mouse modifiers: fix item deselection/track selection when left drag is mapped to marquee zoom/marquee [t=264918]
+  + Mouse modifiers: fix item left-click action when left drag is set to 'No action' [t=270727]
+  + Mouse modifiers: fix middle-click action when middle-drag is set to 'No action' [t=247978]
+  + Mouse modifiers: fix more combinations of click/drag in MIDI editor [p=2871984]
+  + Mouse modifiers: fix running actions in take marker click context
+  + Mouse modifiers: fix time selection in inline MIDI editor [t=257282]
+  + Mouse modifiers: fix toggling selection on grouped items with certain drag options [p=2621675]
+  + Mouse modifiers: fix issues with MIDI editor context menu when right-drag is mapped to time selection
+  + Mouse modifiers: fix right-click/drag modifiers in MIDI inline editor when right-drag is mapped to scroll/scrub/etc in arrange view [t=289553]
+  + Mouse modifiers: fix context menu in MIDI inline editor when right-drag is mapped to handscroll (which is not supported in the inline context) [p=2880891]
+  + Mouse modifiers: fix click notation/score mouse modifiers when drag is set to select touched notes or time selection
+  + Mouse modifiers: fix using piano roll click modifiers (rather than ruler) when clicking in notation/score empty staff areas and drag is not set to draw/paint notes
+  + Mouse modifiers: mouse modifier in notation/score to insert note on left click does not move edit cursor, matching piano roll behavior
+  + Mouse modifiers: improve click behavior when drag set to marquee/erase/scrub in piano roll and notation [t=263231] [t=253771]
+  + Mouse modifiers: improve item cursor display when using razor edits [t=265245]
+  + Mouse modifiers: improve label when moving envelope point vertically with fine adjustment [t=252617]
+  + Mouse modifiers: improve MIDI editor preview when left click inserts note, left drag erases notes/selects time/scrubs [t=239896]
+  + Mouse modifiers: improve MIDI editor mouse modifiers around scrub, don't move edit cursor until drag, play preview note if applicable before drag
+  + Mouse modifiers: improve click behavior when using drag to move/copy existing notes [p=2871976]
+  + Mouse modifiers: improve option to set time selection in media item left click context
+  + Mouse modifiers: do not change track selection when left click is mapped to marquee selection [t=261318]
+  + Mouse modifiers: cursor in envelope lanes reflects the track mouse modifiers [t=228507]
+  + Mouse modifiers: obey option to move edit cursor to time selection when setting time selection via MIDI editor modifiers [t=265406]
+  + Mouse modifiers: properly support 'No action' in MIDI editor ruler, marker/region drag, take marker drag contexts [t=268077]
+  + Mouse modifiers: support alt+click to delete fade in fade-intersection context [t=276985]
+  + Mouse modifiers: support ignoring grouping for item left-click 'add items to selection' [p=2873181]
+  + Mouse modifiers: when razor edit click is set to 'No action', do not set cursor [t=299146]
+  + MusicXML: export <instrument-name> as blank, for compatibility with MuseScore 4.5 [t=299830]
+  + MusicXML: fix export encoding of XML characters [t=303077]
+  + MusicXML: fix import of XML hex unicode character entities
+  + Pan law: make master track 'Gain compensation (boost pans)' checkbox consistent with processing behavior
+  + PDF export: improve appearance of accidentals on grace notes, lyrics with a single clef  [t=277592]
+  + Peaks: fix possible display glitch when highly zoomed in and using stretch markers and take play rate
+  + Phase aligner: respect 'use time selection' by ignoring reference items that are entirely outside the time selection [t=303037]
+  + Project bay: add option to copy media to project directory when importing to project bay
+  + Project bay: improve FX idle status display/sorting [t=302756]
+  + Project bay: support dragging media folders and groups into the project
+  + Project bay: support dragging multiple media items into project while preserving original track/item spacing
+  + Project bay: when dragging media items within existing groups into project, create a new group
+  + Project bay: when importing multiple media items into project, support importing to one track, separate tracks, or fixed lanes
+  + Project settings: do not save project play rate as part of default settings [t=303058]
+  + ReaScript: add GetSetMediaTrackInfo('B_TCPPIN'), GetSetProjectInfo('PROJECT_TCP_UI_FLAGS')
+  + ReaScript: add GetSetProjectInfo('PROJECT_TIMEBASE') and 'PROJECT_TIMEBASE_FLAGS' (read-only)
+  + ReaScript: extend SetMouseModifier()/GetMouseModifier( APIs to support extended flags
+  + ReaScript: fix GetEnvelopePointByTimeEx()/SetEnvelopePointEx()/DeleteEnvelopePointEx() on automation items (the meaning of the 0x10000000 flag was backwards, this may break existing ReaScripts) [t=302948]
+  + ReaScript: improve documentation for GetEnvelopePointEx( full-loop mode
+  + ReaScript: improve performance of GetMediaSourceFileName() and other PCM_source APIs when used on sequential scans of large projects [t=303112]
+  + ReaScript: recalculate TCP display order when calling TrackList_AdjustWindows(false)
+  + ReaScript: fix FX_GetPresetIndex() for loaded video processors, better disambiguation between built-in and user presets of the same name [t=302678]
+  + ReaSurroundPan: support improved localization of various speaker names [p=2884783]
+  + Render: fix handling of filenames that end with many digits when testing for filename collisions [t=302972]
+  + Render: obey 'Mix and process FX at project sample rate' setting when using 'Preserve source media sample rate if possible'
+  + Render: 'Mix and process FX at project sample rate' will use the last hardware sample rate if project sample rate is not set
+  + Ripple: adjust time selection/loop points when removing time from project
+  + Ripple: add preference to insert or not insert empty space when importing media with ripple edit (if not inserting space, do not split overlapping items, just move later items to the right)
+  + Solo: add preference to use a dedicated solo bus (master track hardware outputs can choose to bypass that bus)
+  + Solo: add preference to enable metering for unsoloed tracks when in dedicated solo bus mode
+  + Tempo envelope: support entering tempo/time signature change location in time, beats, H:M:S:F, or samples
+  + Tempo envelope: add mouse modifier checkbox (enabled by default) for tempo envelope point edits to always use 'on one axis only' modifiers
+  + Tempo envelope: support curved and bezier envelope shapes
+  + Tempo envelope: improve behavior when pasting tempo envelope points and tempo envelope timebase is beats [t=302495]
+  + Tempo envelope: allow dragging tempo change points when envelope segments are linear or curved [t=261032]
+  + Theme: add support for pinned tracks to default theme
+  + Theme: add theme elements for transport timebase indicator (trans.timebase, transport_timebase_time.png, transport_timebase_beat.png)
+  + Theme: add theme elements for item timebase indicator (item_timebase_time, item_timebase_on, item_timebase_time_beat, item_timebase_beat_on, _on displays when the item timebase differs from the project timebase)
+  + Theme: support theme images for pinned track divider (tcp_pinned_divider, tcp_pinned_divider_overflow)
+  + Theme: report trackpinned=1 to WALTER if the track is pinned but overridden, trackpinned=2 if pinned and not overridden, trackhidden=1 if hidden but overridden
+  + Timebase: add project setting to control whether MIDI items are affected by project timebase, to support MIDI items adjusting to tempo changes but not audio items
+  + Timebase: improve import behavior when using Time timebase and a tempo map is present
+  + Timebase: support setting project timebase to Beats with auto-stretch at tempo changes
+  + Timebase: add stretch markers to preserve timing when setting timebase to Beats with auto-stretch at tempo changes
+  + Timebase: optionally display media item button indicating item timebase
+  + Timebase: support timebase Beats (position only) for MIDI items
+  + Timebase: prevent adding unnecessary stretch markers at media item edges when applying timebase beats with auto-stretch at tempo changes
+  + Timebase: when changing to Time timebase with auto-stretch at tempo changes, apply current transformation as a single media item play rate
+  + Toolbars: add toolbar for empty Track Panel space, give it a default "insert track" button
+  + Toolbars: make tooltips positioned similar to track panel tooltips
+  + Toolbars: allow creating empty toolbars
+  + Track meters: fix display when track panels are narrow [t=302866]
+  + Track pinning: support pinning individual tracks to the top of the arrange view
+  + Track pinning: pin master track to top of arrange view by default
+  + Track pinning: add actions to override or show all hidden or pinned tracks, pin selected tracks/unpin all others, show/hide all pinned tracks
+  + Track pinning: add preference to disable vertical zoom for pinned tracks
+  + Track pinning: ignore 'expand selected tracks, minimize others' for pinned tracks
+  + Track pinning: do not insert new tracks when drag-importing media into pinned track area
+  + Video: auto-detect factory preset when saving preset
+  + Video: fix generative oscilliscope/spectrum analyzer presets when project time offset is used [t=300658]
+  + Video: fix input_get_name with empty take names [t=302761]
+  + Video: restore preset name when bringing video processor online [t=303014]
+  + Video: support syncing to encoded LTC via 'Move to media source preferred position' action
+  + Windows: improve appearance when track-reordering indicator overlaps with metering
+
+v7.45 - August 29 2025
+  + Filenames: fix auto-increment behavior [p=2887221]
+  + Filenames: set default auto-increment suffix to '_001' to match existing behavior of action to save new version of project
+  + FX: show tooltip over borderless embedded FX in MCP
+  + JSFX: simplify appearance of oscilliscope/spectrum analyzer when embedded
+  + JSFX: support setting no-decorate and mouse-passthrough by setting gfx_ext_flags 0x100/0x200 respectively
+  + WMF: fix incorrect extension when rendering video-only or audio-only files
+
+v7.44 - August 27 2025
+  + Actions: add action to duplicate project in new tab
+  + Actions: add duplicate/copy as synonyms
+  + Batch converter: fix applying trailing silence trim
+  + Batch converter: fix applying leading trim when the first sample of the file is over the threshold
+  + CLAP: support embedded FX UI (see reaper_plugin_fx_embed.h)
+  + Crossfade editor: don't display ruler or peaks for negative project time
+  + Crossfade editor: improve consistency of out-of-bounds peak display
+  + Crossfade editor: improve gridline spacing
+  + Crossfade editor: prevent crash when zooming and scrolled away from crossfade
+  + Crossfade editor: prevent edits from creating negative start offset for looped media items
+  + Filenames: support wildcards in auto-increment filename setting (Preferences > General)
+  + FX: support no-decoration and passthrough clicks for embedded FX UI (see reaper_plugin_fx_embed.h)
+  + GIF: report animated GIF frame count in source properties
+  + Glue: fix handling take names that resemble filename extensions [t=302769]
+  + JSFX: fix listing presets in Add FX window
+  + JSFX: increase accuracy of true peak calculation in Loudness Meter
+  + Linux: automatically try ALSA subdevices when the default subdevice fails to open
+  + Linux: improve UI responsiveness when dragging/dropping files
+  + Linux: only try suspending PulseAudio when ALSA device returns busy status
+  + Linux: support drag/drop of files to plug-in windows [t=292802]
+  + macOS: improve keyboard handling of Eisu/Kana keys
+  + macOS: improve keyboard handling with IME window open
+  + MIDI: fix adjusting left edge of MIDI item when inserting time or moving/copying regions when tempo changes exist [t=302502]
+  + MIDI editor: increase size of key snap scale box slightly [t=302519]
+  + Mouse modifiers: add modifier to move item contents and right edge, respecting toolbar ripple edit button
+  + Phase aligner: disable controls while phase alignment is calculating
+  + Phase aligner: support adjusting each item separately, each track separately, or all items together
+  + Preferences: allow resizing preferences window smaller (automatically do so to support low resolution displays), allow scrolling
+  + Preferences: move auto-increment suffix preference to Preferences > General
+  + Project: use configurable auto-increment suffix when incrementing project name during save-as
+  + Project bay: fix listing JSFX presets
+  + ReaLimit: increase accuracy of true peak calculation
+  + ReaScript: document section IDs for GetToggleCommandStateEx()
+  + ReaScript: support crossfade editor commands in GetToggleCommandState_Ex()
+  + Render: add preference to always delete incomplete files after canceling render
+  + Render: fix normalizing and brickwall limiting to master mix when not rendering master mix (7.43 regression)
+  + Render: fix possible crash/error when brickwall limiting files with high sample rate and high channel count [t=302536]
+  + Render: fix possible peaks display error when brickwall limiting
+  + Render: fix rendered files being slightly too long when brickwall limiting multiple files at once [t=302536]
+  + Render: fix applying leading trim when the first sample of the file is over the threshold
+  + Render: if default rendered file name is blank or "untitled", use "$project" instead
+  + Render: increase accuracy of true peak calculation for render statistics and brickwall limiting
+  + Render: support sending .wav.rpp and render_stats.html to alternate path vs media, via RENDER_EXTRAFILEDIR in project and render preset (no UI yet)
+  + Ripple edit: respect setting 'ripple edit all affects tempo map' when pasting media items with ripple-edit-all enabled
+  + Ruler: improve snapping behavior when moving regions without contents
+  + Theme: display frame grid lines in different theme color in between whole seconds [t=302752]
+  + Time selection/loop: add user preference for minimum length in pixels (prevent accidental 2-pixel time selections)
+  + Video processor: prevent crash when right clicking to evaluate nontrivial code [t=302685]
+  + Windows: fix some keyboard handling corner cases, e.g. alt+P/R in media item properties
+
+v7.43 - August 13 2025
+  + Actions: add action to toggle project timebase between time and beats
+  + Actions: fix toggle command state for track groups 65-128 [t=301913]
+  + Actions: improve actions to move selected points up/down a tiny/little bit with mute/stepped envelopes (move by step size)
+  + Crossfade editor: add actions to mute left item, mute right item, solo crossfaded items
+  + Crossfade editor: if re-center/auto-center options disabled, do not clamp edits or display to crossfade edges; allow crossfade to be partially or completely offscreen
+  + Crossfade editor: support hand-scroll by dragging above the top item
+  + Envelopes: add actions to remove unnecessary points
+  + Envelopes: fix action to reduce envelope points removing first or last point
+  + Freeze: fix intermittent issues with overlapping items being generated [t=302396]
+  + Items: fix looped item playback when item is just barely longer than source material [p=2881216]
+  + JSFX: improve syntax highlighting of parameter names [p=2880862]
+  + Localization: fix control resizing errors on Windows [t=301809]
+  + Localization: improve layout of automation item properties window
+  + Localization: improve layout of track envelope manager window
+  + Localization: improve measurement/expansion logic of controls on Windows
+  + Media explorer: support marking and favoriting non-media files (projects, templates, FX chains/presets, etc)
+  + Media explorer: support adding metadata for non-media files; persists as long as the file remains in the same folder
+  + Media explorer: when writing metadata to file, preserve user-edited cached metadata that the file type does not support
+  + Metronome: commit volume edit when editing and immediately closing window [t=295695]
+  + MIDI: add explanatory timebase text to MIDI source properties dialog
+  + MIDI: automatically pool copies of items when they are already pooled, regardless of MIDI pooling preference [t=301909]
+  + MIDI: fix extending unlooped MIDI item when timebase is set to time and tempo changes exist [t=301867]
+  + MIDI editor: when coloring by track/item and track/item is default colored, add option (enabled by default) to color by source instead [t=301151]
+  + MIDI editor: fix initial zoom issues when using note folding
+  + MIDI editor: fix reset of inline editor zoom/scroll on undo/redo, other actions [t=276983]
+  + MIDI editor: preserve sequencer specific messages, support viewing and editing similar to sysex [t=302211]
+  + MIDI editor: support snap to visible grid in inline editor [t=302099]
+  + MIDI editor: fix displaying all text/sysex messages at item start in MIDI editor
+  + MIDI editor: fix loss of default settings when gluing/etc in certain instances [t=302154]
+  + Mixer: fix adjusting mixer control panel height for visual spacers and scrollbar [t=302428]
+  + Phase aligner: add text explaining that multiple rows can be selected
+  + Phase aligner: support applying phase adjustment per-track rather than per-item [t=301847]
+  + Project: support importing .adl (AES-31) project files
+  + Project bay: improve handling of double-click on collapse buttons [t=295988]
+  + Project bay: remove useless behavior when drag/dropping FX parameters [t=295988]
+  + Project tabs: support up to 1000 project tabs (increased from 128)
+  + Razor edits: allow editing track envelopes in media lane, media item take envelopes similarly to track envelopes
+  + Razor edits: avoid adding unnecessary edge points when editing envelopes [t=302015]
+  + Razor edits: fix behavior when editing envelopes with multiple razor edits at once
+  + Razor edits: fix tooltip when editing envelope left-side tilt
+  + ReaScript: FX_Get/SetNamedConfigParm() supports channel_config to allow configuring ReaPlugs I/O and VST3 requested bus size
+  + ReaScript: support I_FREEZECOUNT for GetSetMediaTrackInfo()
+  + Regions: fix mouse-clicking regions when preference enabled to display selected regions over unselected regions [p=2879410]
+  + Render: avoid saving default rendered file name as "untitled" [p=2883119]
+  + Render: do not embed loudness metadata if embedding metadata is disabled generally
+  + Render: when rendering to a lossy format like mp3 or ogg, calculate normalization and statistics based on the format-encoded signal rather than the source signal [t=301008]
+  + Ruler: fix display update after double-clicking region [p=2878971]
+  + Scrub range window: support entering negative values
+  + Section source: preserve take envelope timing when slip editing section source [p=2877093]
+  + Snap: respect snap to sample setting even if project sample rate is not set (use device sample rate instead)
+  + Take envelopes: add option to move or not move take envelope points when moving media item contents
+  + Theme: no longer show meters for non-record armed tracks that are over +0dB as a different color
+  + Track I/O context menu: support multiple selected tracks when adding new track [p=2879019]
+  + Track I/O context menu: when adding a new track with sends, select the new track and ensure it is visible
+  + Track manager: fix sorting by certain columns [t=302398]
+  + WAV: fix reading certain kinds of metadata (7.23 regression)
+  + Windows: fix date UTF-8 formatting issues with certain locales [t=301935]
+  + Windows: fix FX chain focus issues when renaming FX, toggling bypass, etc [t=299745]
+
+v7.42 - July 13 2025
+  + Accessibility: improve edit field labels in GetUserInputs() API call
+  + Accessibility: improve take loop section labels in Media Item Properties window
+  + Actions: fix corner case behaviors of move cursor by grid division actions added in 7.41
+  + Actions: open in editor works while recording, does not automatically close audio device for external editors [t=73180]
+  + Click source: fix incorrect peaks display when resizing item [t=301631]
+  + Control surfaces: fix mixer ordering inconsistencies when mixer is not open
+  + Crossfade editor: actions to preview left/right/both do not restart playback if already playing
+  + Crossfade editor: actions to preview right-hand item start playback from start of right-hand item
+  + Crossfade editor: add actions to increase/decrease pre-roll or post-roll time
+  + Crossfade editor: add actions to preview left/right/both, not soloed
+  + Crossfade editor: add action to play/stop from start of right-hand item
+  + Crossfade editor: fix actions to set preview time to 50/100/500 ms
+  + EDL: when importing Vegas TXT, handle start offset/playrate correctly [t=301827]
+  + JSFX: improve syntax highlighting consistency for sliderX: lines
+  + Localization: increase size of Metering labels in ReaPlugs
+  + macOS: better popup button initial positioning when rounded macOS controls are enabled
+  + MIDI: apply timebase changes when changing timebase via media item properties dialog [t=301795]
+  + MIDI: fix auto-loop-disable/extend of looped items in time timebase when overdub recording
+  + MIDI: fix overdub recording into subsequent loop iterations of looped items
+  + MIDI: fix overdub recording to items in time timebase (with item-loop enabled) [t=301324]
+  + MIDI: fix pencil-drawing MIDI when timebase is set to time [t=301402]
+  + MIDI: fix potentially incorrect chasing on looped items in time timebase
+  + MIDI: reconform MIDI data when switching item timebases (requires item to be un-pooled and not actually looped)
+  + MIDI: when pasting MIDI items, snap item position to PPQN, not item-source-start-position [t=286926]
+  + MIDI: fix auto-extending start of non-looped items in the time timebase [t=301694]
+  + MIDI editor: always allow recently-created copies of CC events to cross other events when using copy mouse modifier [t=270899]
+  + MIDI editor: fix 'move right by grid' when snap enabled and limit grid to visible is disabled
+  + MIDI editor: fix auto-extend of MIDI items with negative start offsets [t=301611]
+  + MIDI editor: fix event properties tick parsing clamping to file length for item in time timebase
+  + MIDI editor: improve snap behavior when inserting text/lyrics/sysex events via right-click/double-click in lane [t=301850]
+  + Phase aligner: allow setting maximum adjustment to 0 ms, to restrict alignment to inverting phase only
+  + Pin mapper: fix potential crash when reopening media pin mapper/media explorer pin mapper (7.35 regression) [t=301329]
+  + Preferences: fix searching of mouseover text on some preferences pages
+  + Preferences: remove option from preferences/mouse that is no longer used [t=284849]
+  + Project bay: fix initial focus when docked
+  + Project settings window: increase size slightly to make room for future additions
+  + ReaScript: support re-scanning JSFX list/metadata by calling EnumInstalledFX() with idx=-1
+  + Region render matrix: menu item to enable rendering all regions ignores the 'entire project' region [t=301720]
+  + Render: fix possible blank samples added to start of mp3 render when render settings enabled to mix/process at project sample rate and rendering to a different sample rate [t=301601]
+  + Render: fix possible dropped samples at start of render when render settings enabled to mix/process at project sample rate and rendering to a different sample rate [t=301601]
+  + Ruler: improve double-click behavior, restoring some 7.40 functionality lost in 7.41 [t=293896]
+  + Save as: ensure saving project files via save-as always have correct .RPP extension
+  + Scrub: add new preference for one-shot jog mode when moving edit cursor, add action to toggle it
+  + Scrub: add action to play a single one-shot scrub loop
+  + Scrub: add action to invert looped-segment range
+  + Scrub: add action to prompt to set/update looped-scrub range values
+  + Track I/O context menu: support adding send/receive to new tracks
+  + Track list: improve auto-scroll of track list to match mixer when selected track is partially visible [t=301677]
+  + VST3: fix bridging handling of legacy CC messages [p=2875935]
+  + Wildcards: $namecount wildcard does not count multiple instances of the same name in the same string [t=301309]
+  + Windows: improve handling of MIDI hardware output errors, add midi_hw_debug=1 ini file option to enable win32 debug messages on error
+
 v7.41 - June 28 2025
   + Actions: add actions to move cursor by grid division, which preserve non-snapped grid if snapping is not enabled
   + Actions: fix actions to show/hide all envelopes in certain situations [t=301489]
